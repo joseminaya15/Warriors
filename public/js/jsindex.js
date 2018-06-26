@@ -22,11 +22,11 @@ function sendInformation(){
 		return;
 	}
 	if(surname == null || surname == '') {
-		msj('error', 'Surname Participante debe completarse');
+		msj('error', 'Surname debe completarse');
 		return;
 	}
 	if(company == null || company == '') {
-		msj('error', 'Company Participante debe completarse');
+		msj('error', 'Company debe completarse');
 		return;
 	}
 	if(country == null || country == '') {
