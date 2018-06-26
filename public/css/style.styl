@@ -127,7 +127,10 @@ strong
 .js-title
 	text-align center
 	font-size 32px
-	font-family $medium
+	font-family $bold
+	margin 20px 0
+	&.white
+		color #FFFFFF
 .js-flex
 	flexCenter()
 	justify-content center
@@ -347,6 +350,7 @@ footer
 		font-size 32px
 		margin-bottom 20px
 .js-information
+	padding 20px 0
 	p
 		line-height 20px
 		margin 15px 0
@@ -362,25 +366,28 @@ footer
 	position relative
 	width 100%
 	height 200px
-	max-width 300px
+	max-width 225px
 	.js-information__left--imagen
 		absolute()
 		background url(../img/fondo/hotel.jpg) no-repeat center center
 		background-size cover
-		height 200px
+		height 160px
 .js-information__right
-	padding 20px
+	padding 10px 20px
 	width 100%
-	max-width calc(100% - 300px)
+	max-width calc(100% - 225px)
 .js-card
+	background-color #FFFFFF
 	box-shadow 0 2px 5px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23)
-	border-radius 5px
-	padding 15px
-	margin 20px 0
+	padding 20px
 .js-partners
 	img
 		max-width 250px
 		margin 15px
+#logistic
+	background-color #614767
+#register
+	background-color #90A878
 /*MODAL*/
 .modal
 	&.fade
