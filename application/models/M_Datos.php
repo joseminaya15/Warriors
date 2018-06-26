@@ -12,6 +12,6 @@ class M_Datos extends  CI_Model{
             throw new Exception('Error al insertar');
             $data['error'] = EXIT_ERROR;
         }
-        return array("error" => EXIT_SUCCESS, "msj" => MSJ_INS);
+        return array("error" => EXIT_SUCCESS, "msj" => MSJ_INS, "Id" => $sql);
     }
 }

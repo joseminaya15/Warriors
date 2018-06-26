@@ -521,7 +521,7 @@
                 <div class="col-xs-12 p-0">
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="js-input js-select">
-                            <select name="gender" id="participant" title="Tipo de Participante*"> 
+                            <select name="participant" id="participant" title="Tipo de Participante*"> 
                                 <option value="HPE Employee">HPE Employee</option>
                                 <option value="Partner">Partner</option>
                                 <option value="Sponsor">Sponsor</option>
@@ -604,7 +604,10 @@
     <section id="login" class="js-section">
         <div class="js-container">
             <div class="js-title">
-                <h2>LOGIN</h2>
+                <h2 class="js-title">LOGIN</h2>
+                <div class="js-information">
+                    <p>If you are already registered, please enter your email to find your the reservation code.</p>
+                </div>
             </div>
         </div>
     </section>
