@@ -446,8 +446,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade" id="evento">
                     <div class="js-information">
                         <p>El evento consiste en 3 días de sesiones de 8:00 am a 5:00 pm (Del Martes 07 de Agosto al Jueves 09 de Agosto).</p>
@@ -464,15 +462,11 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade" id="costo">
                     <div class="js-information">
                         
                     </div>
                 </div>
-            </div>
-            <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade" id="recomendaciones">
                     <div class="js-information">
                         
