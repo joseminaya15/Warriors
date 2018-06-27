@@ -167,6 +167,7 @@ function sendReserva(){
 		try{
 			data = JSON.parse(data);
 			if(data.error == 0){
+				$('.js-input').find('input').val('');
 				$('#ModalLogin').modal('hide');
         		msj('success', 'Registro completado');
         	}else {
