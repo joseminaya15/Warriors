@@ -431,8 +431,8 @@
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="hospedaje">
-                        <div class="js-information">
-                            <ul>
+                        <div class="js-information p-20">
+                            <ul class="p-l-15">
                                 <li>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 128 por noche + impuestos.</li>
                                 <li>Para aplicar a esta tarifa deberán usar el siguiente link <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-book" href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%20Value%20Partners%5EHOUZN%60HWVHWVA%60128.00%60USD%60false%601%608/6/18%608/11/18%607/16/18&app=resvlink&stop_mobi=yes" target="_blank">Book your room</a></li>
                                 <li>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</li>
@@ -441,14 +441,7 @@
                                 <li>Esta tarifa especial expira el 16 de julio.</li>
                                 <li>La organización del evento recomienda este hotel por su cercanía al campus, su tarifa y la facilidad de desplazamientos (ida/retorno) que están incluidos. Si el participante desea alojarse en otro hotel, el transporte correrá por su cuenta.</li>
                             </ul>
-                            <!-- <p>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 129 por noche + impuestos.</p>
-                            <p>Para aplicar a esta tarifa deberán usar el siguiente <a href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%20Value%20Partners%5EHOUZN%60HWVHWVA%60128.00%60USD%60false%601%608/6/18%608/11/18%607/16/18&app=resvlink&stop_mobi=yes" target="_blank">link</a></p>
-                            <p>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</p>
-                            <p>Los participantes estar&aacute;n alojados en el hotel recomendado para el evento:</p>
-                            <p>La tarifa aplica para las noches de alojamiento entre el 6 y el 11 de Agosto.</p>
-                            <p>Esta tarifa especial expira el 16 de julio.</p>
-                            <p>La organización del evento recomienda este hotel por su cercanía al campus, su tarifa y la facilidad de desplazamientos (ida/retorno) que están incluidos. Si el participante desea alojarse en otro hotel, el transporte correrá por su cuenta.</p> -->
-                            <div class="js-flex--start p-20">
+                            <div class="js-flex--start">
                                 <div class="js-information__left">
                                     <div class="js-information__left--imagen"></div>
                                 </div>
@@ -462,16 +455,17 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="evento">
-                        <div class="js-information">
-                            <p>Todas las sesiones se llevarán a cabo en el Conference Center CCA5 del Campus HPE: <strong>HPE Campus</strong></p>
-                            <p>11445 Compaq Center West Drive Houston, TX 77070</p>
-                            <p>Las sesiones generales se realizarán en el Houston North y los breakouts en las Salas Munich, Holland, Eskrine y Singapoure</p>
-                            <p>El evento consiste en 3 días de sesiones de 8:00 am a 5:00 pm (Del Martes 07 de Agosto al Jueves 09 de Agosto).</p>
-                            <p>El retorno al hotel está previsto una vez concluidas las actividades indicadas en la agenda.  Aquellos participantes que alquilan autos y/u opta por otro alojamiento, deberá acudir dejar su vehículo en el Springhill Hotel para poder unirse al bus para el ingreso al Conference Center.  Se recomienda evitar llevar auto al campus por limitaciones de espacio disponible para visitantes.</p>
-                            <p>La asistencia es mandatoria los 3 días de entrenamiento así como a las actividades de intregración y cena grupal</p>
-                            <strong>Sobre la APP del evento</strong>
-                            <p>A partir del 15 de julio estará disponible la webapp del evento que le permitirá estar con información actualizada sobre la agenda además de poder recibir y participar de:</p>
-                            <ul>
+                        <div class="js-information p-20">
+                            <ul class="p-l-15">
+                                <li>Todas las sesiones se llevarán a cabo en el Conference Center CCA5 del Campus HPE: <strong>HPE Campus</strong> 11445 Compaq Center West Drive Houston, TX 77070</li>
+                                <li>Las sesiones generales se realizarán en el Houston North y los breakouts en las Salas Munich, Holland, Eskrine y Singapoure</li>
+                                <li>El evento consiste en 3 días de sesiones de 8:00 am a 5:00 pm (Del Martes 07 de Agosto al Jueves 09 de Agosto).</li>
+                                <li>El retorno al hotel está previsto una vez concluidas las actividades indicadas en la agenda.  Aquellos participantes que alquilan autos y/u opta por otro alojamiento, deberá acudir dejar su vehículo en el Springhill Hotel para poder unirse al bus para el ingreso al Conference Center.  Se recomienda evitar llevar auto al campus por limitaciones de espacio disponible para visitantes.</li>
+                                <li>La asistencia es mandatoria los 3 días de entrenamiento así como a las actividades de intregración y cena grupal</li>
+                            </ul>
+                            <strong class="m-t-30 dblock">Sobre la APP del evento</strong>
+                            <p>A partir del 20 de julio estará disponible la webapp del evento que le permitirá estar con información actualizada sobre la agenda además de poder recibir y participar de:</p>
+                            <ul class="p-l-15">
                                 <li>Notificaciones</li>
                                 <li>Alertas de cambios en la agenda</li>
                                 <li>Tips y recomendaciones</li>
@@ -481,15 +475,15 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="costo">
-                        <div class="js-information">
+                        <div class="js-information p-20">
                             <strong>Los siguientes servicios serán cubiertos por HPE:</strong>
-                            <ul>
+                            <ul class="p-l-15">
                                 <li>Alimentación durante los 3 días del evento</li>
                                 <li>Traslados desde el hotel hacia el Campus y viceversa</li>
                                 <li>Actividades de Entretenimiento y Cenas.</li>
                             </ul>
                             <strong>Los siguientes servicios NO serán cubiertos por HPE:</strong>
-                            <ul>
+                            <ul class="p-l-15">
                                 <li>Traslados desde/hacia el aeropuerto/hotel</li>
                                 <li>Alquiler de vehiculos </li>
                                 <li>Consumos personales e incidencias durante el alojamiento en el hotel</li>
@@ -497,9 +491,9 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="recomendaciones">
-                        <div class="js-information">
+                        <div class="js-information p-20">
                             <strong>Dress code y recomendaciones generales:</strong>
-                            <ul>
+                            <ul class="p-l-15">
                                 <li>Business casual para las conferencias.</li>
                                 <li>No está permitido usar calzado abierto (sandalias) en el campus.</li>
                                 <li>No está permitido el ingreso de maletas/maletines de gran tamaño</li>
@@ -510,7 +504,7 @@
                             <strong>Clima y temperatura</strong>
                             <p>La temperatura promedio en la ciudad de Houston durante Agosto es de 26º C min. / 34º C max. (76 a 94º F respectivamente)</p>
                             <p>Puntos de Interés cercanos al hotel con shuttle gratuito</p>
-                            <ul>
+                            <ul class="p-l-15">
                                 <li><strong>Vintage Park</strong> (a 5 minutos)</li>
                                 <li><strong>Willowbrook Mall</strong> (a 10 minutos)</li>
                             </ul>
