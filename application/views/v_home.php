@@ -525,8 +525,8 @@
                         <div class="js-input js-select">
                             <select name="participant" id="participant" title="Tipo de Participante*"> 
                                 <option value="HPE Employee">HPE Employee</option>
-                                <option value="Partner">Partner</option>
-                                <option value="Sponsor">Sponsor</option>
+                                <option value="Partner">Partner (Speaker)</option>
+                                <option value="Sponsor">Pre Venta Canal</option>
                             </select>
                         </div>
                     </div>
@@ -557,7 +557,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                      <div class=" js-input">
-                        <label for="text">Empresa*</label>
+                        <label for="text">Empresa (Canal)*</label>
                         <input type="text" id="company" >
                     </div>
                 </div>
@@ -575,7 +575,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">Teléfono*</label>
+                        <label for="text">Teléfono Móvil*</label>
                         <input type="text" id="phone">
                     </div>
                 </div>
@@ -585,7 +585,7 @@
                         <input type="text" id="email" >
                     </div>
                 </div>
-                <div class="col-xs col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="js-input js-select">
                         <select name="shirt" id="shirt" title="Talla de Polo/Camisa"> 
                             <option value="Small">Small</option>
@@ -598,18 +598,25 @@
                     </div>
                 </div>
             </div>
-            <div class="js-section--button text-right">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Enviar</button>
+            <div class="js-section--button text-left">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Enviar</button>
+            </div>
+            <div class="js-confirmation">
+                <h2>Gracias por registrarse</h2>
+                <p>Ahora para completar su registro y asegurar su cupo deber&aacute; ingresar su correo en la siguiente secci&oacute;n e indicarnos su fecha de llegada / salida as&iacute; como su reserva de hotel. (indispensable)</p>
             </div>
         </div>
     </section>
     <section id="login" class="js-section">
         <div class="js-container">
-            <div class="js-title">
-                <h2 class="js-title">LOGIN</h2>
-                <div class="js-information">
-                    <p>If you are already registered, please enter your email to find your the reservation code.</p>
-                </div>
+            <h2 class="js-title">ACCESO REGISTRADOS</h2>
+            <p class="text-center">Si usted ya se encuentra registrado, ingrese su email para completar su inscripci&oacute;n.</p>
+            <div class="js-input js-input--default">
+                <label for="text">Email*</label>
+                <input type="text" id="correo" onkeyup="verificarDatos(event);">
+            </div>
+            <div class="js-reserva text-center">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="ingresar()">Completar Registro</button>
             </div>
         </div>
     </section>
@@ -621,31 +628,56 @@
     </footer>
     <!--MODAL-->
     <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm text-center">
+        <div class="modal-dialog modal-sm">
             <div class="modal-content">
-                <div class="mdl-card mdl-card-login">
-                    <div class="mdl-card__supporting-text">
-                        <!-- <img class="logo" src="<?php echo RUTA_IMG;?>logo/logo-home.png"> -->
-                        <div class="event">
-                            <h2>Your feedback is important!</h2>
-                            <p>Please share with us your experience at the 2018 Bootcamp.</p>
-                        </div>
-                        <div class="mdl-input">
-                            <div class="mdl-icon">
-                                <i class="mdi mdi-email"></i>
+                <div class="mdl-card">
+                    <div class="mdl-card__title">
+                        <p>Completar la siguiente informaci&oacute;n</p>
+                    </div>
+                    <div class="mdl-card__supporting-text p-t-0">
+                        <div class="col-xs-12 p-0">
+                            <div class="js-input js-date js-flex">
+                                <input class="js-disabled" type="text" id="llegada" name="llegada" maxlength="10" placeholder="Fecha de Llegada" value="" style="pointer-events: none">
+                                <div class="js-icon">
+                                    <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
+                                        <i class="mdi mdi-date_range"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="correo" maxlength="50" >
-                                <label class="mdl-textfield__label" for="correo">Email</label>
-                                <span class="mdl-textfield__error">Invalid email</span>
+                        </div>
+                        <div class="col-xs-12 p-0">
+                            <div class="js-input js-date js-flex">
+                                <input class="js-disabled" type="text" id="retorno" name="retorno" maxlength="10" placeholder="Fecha de Retorno" value="" style="pointer-events: none">
+                                <div class="js-icon">
+                                    <button type="button" class="mdl-button mdl-js-button mdl-button--icon">
+                                        <i class="mdi mdi-date_range"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 p-0">
+                            <div class=" js-input">
+                                <label for="text">#Reserva de Hotel</label>
+                                <input type="text" id="reserva" >
+                            </div>
+                        </div>
+                        <div class="col-xs-12 p-0">
+                            <div class="js-input js-radio">
+                                <label>¿Participar&aacute; en la visita al Shopping Mall del d&iacute;a Miercoles (6 pm)&#63;</label>
+                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="invitado">
+                                    <input type="radio" id="invitado" class="mdl-radio__button" name="options" value="1" checked>
+                                    <span class="mdl-radio__label">Si</span>
+                                </label>
+                                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="noinvitado">
+                                    <input type="radio" id="noinvitado" class="mdl-radio__button" name="options" value="0">
+                                    <span class="mdl-radio__label">No</span>
+                                </label>
                             </div>
                         </div>
                     </div>
-                    <div class="mdl-card__actions p-0">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="ingresar()">Go to Survey</button>
-                    </div> 
-                    <div class="mdl-card__menu">
-                        <button class="mdl-button mdl-js-button mdl-button--icon" data-dismiss="modal"><i class="mdi mdi-close"></i></button>
+                    <div class="mdl-card__actions text-right">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" data-dismiss="modal">Cerrar</button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="sendReserva()">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -665,6 +697,8 @@
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
+        initButtonCalendarDaysMinToday('llegada');
+        initButtonCalendarDaysMinToday('retorno');
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

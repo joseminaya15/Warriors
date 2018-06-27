@@ -1,3 +1,23 @@
+var $win = $(window);
+$win.scroll(function () {
+	if ($win.scrollTop() > 45) {
+		$("nav").addClass("navbarcolor");
+	} else {
+		$("nav").removeClass("navbarcolor");
+	}
+});
+$('a.link[href^="#"]').click(function(e) {
+ 	var target = $(this).attr('href');
+ 	var strip = target.slice(1);
+ 	var anchor = $("section[id='" + strip + "']");
+ 	e.preventDefault();
+ 	y = (anchor.offset() || {
+ 		"top" : NaN
+ 	}).top;
+ 	$('html, body').animate({
+ 		scrollTop : (y - 40)
+ 	}, 'slow');
+});
 function sendInformation(){
 	var participant = $('#participant').val();
 	var breakout    = $('#breakout').val();
@@ -55,7 +75,7 @@ function sendInformation(){
 	}
 	$.ajax({
 		data : {Participant : participant,
-			    Breakout : breakout,
+			    Breakout    : breakout,
 				Name	    : name,
 				Surname	    : surname,
 				Company	    : company,
@@ -73,8 +93,9 @@ function sendInformation(){
 				$('.js-input').find('input').val('');
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
-				msj('success', 'Se ha registrado correctamente');
+				$('.js-confirmation').addClass('aparecer');
         	}else{
+        		msj('error', data.msj);
         		return;
         	}
 		} catch (err) {
@@ -82,27 +103,87 @@ function sendInformation(){
 		}
 	});
 }
+function ingresar(){
+	var correo = $('#correo').val();
+	if(correo == null || correo == '') {
+		msj('error', 'Email debe completarse');
+		return;
+	}
+	if(!validateEmail(correo)){
+		msj('error', 'El formato de email es incorrecto');
+		return;
+	}
+	$.ajax({
+		data  : { correo : correo},
+		url   : 'home/ingresar',
+		type  : 'POST'
+	}).done(function(data){
+		try{
+        	data = JSON.parse(data);
+        	if(data.error == 0){
+        		$('#correo').val("");
+        		$('#ModalLogin').modal('show');
+        	}else {
+				msj('error', 'Email no registrado');
+        		return;
+        	}
+      } catch (err){
+        msj('error',err.message);
+      }
+	});
+}
+function sendReserva(){
+	var 
+	var llegada    = $('#llegada').val();
+	var retorno    = $('#retorno').val();
+	var reserva    = $('#reserva').val();
+	var invitado   = $('#invitado').is(':checked');
+	var noinvitado = $('#noinvitado').is(':checked');
+	var visita     = null;
+	if(llegada == null || llegada == '') {
+		msj('error', 'Fecha de Llegada debe completarse');
+		return;
+	}
+	if(retorno == null || retorno == '') {
+		msj('error', 'Fecha de Retorno debe completarse');
+		return;
+	}
+	if(reserva == null || reserva == '') {
+		msj('error', '#Reserva de Hotel debe completarse');
+		return;
+	}
+	if(invitado == true){
+		visita = 1;
+	}else if(noinvitado == true){
+		visita = 0;
+	}
+	$.ajax({
+		data : { Llegada : llegada,
+				 Retorno : rerorno,
+				 Reserva : reserva,
+				 Visita  : visita},
+		url  : 'home/reserva',
+		type : 'POST'
+	}).done(function(data){
+		try{
+			data = JSON.parse(data);
+			if(data.error == 0){
+        		msj('success', 'Registro completado');
+        	}else {
+        		return;
+        	}
+		} catch (err){
+			msj('error',err.message);
+		}
+	})
+}
 function validateEmail(email){
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 }
-var $win = $(window);
-$win.scroll(function () {
-	if ($win.scrollTop() > 45) {
-		$("nav").addClass("navbarcolor");
-	} else {
-		$("nav").removeClass("navbarcolor");
-	}
-});
-$('a.link[href^="#"]').click(function(e) {
- 	var target = $(this).attr('href');
- 	var strip = target.slice(1);
- 	var anchor = $("section[id='" + strip + "']");
- 	e.preventDefault();
- 	y = (anchor.offset() || {
- 		"top" : NaN
- 	}).top;
- 	$('html, body').animate({
- 		scrollTop : (y - 40)
- 	}, 'slow');
-});
+function verificarDatos(e) {
+	if(e.keyCode === 13){
+		e.preventDefault();
+		ingresar();
+    }
+}

@@ -154,6 +154,10 @@ strong
 	margin-bottom -1px
 	color #333333
 	margin 5px 0
+	&.js-input--default
+		width 100%
+		max-width 400px
+		margin 20px auto
 	&.js-date
 		padding 5px 20px
 		.js-icon
@@ -204,6 +208,8 @@ strong
 		color #666666
 		cursor pointer
 		margin-bottom 0
+		font-weight 100
+		font-size 14px
 	input
 		display block
 		height 36px
@@ -254,6 +260,9 @@ strong
 	&.js-button--default
 		background-color transparent !important
 		border 2px solid #FFFFFF
+	&.js-login
+		background-color #535353 !important
+		border 2px solid #535353
 .mdl-radio__inner-circle
 	background #4983B6
 .mdl-checkbox
@@ -402,6 +411,30 @@ footer
 	height 26px
 	line-height 26px
 	vertical-align middle
+.js-confirmation
+	width 100%
+	max-width 600px
+	color #FFFFFF
+	text-align center
+	margin 40px auto
+	display none
+	&.aparecer
+		display block
+	h2
+		font-family $medium
+		font-size 40px
+		line-height 40px
+		margin 20px 0
+	p
+		letter-spacing 1px
+.js-reserva
+	button
+		width 100%
+		max-width 200px
+/*MATERIAL DESIGN*/
+.mdl-card
+.mdl-card__supporting-text
+	width 100%
 /*MODAL*/
 .modal
 	&.fade

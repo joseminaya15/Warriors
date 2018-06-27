@@ -31,7 +31,12 @@ class Home extends CI_Controller {
 			$telefono	    = $this->input->post('Phone');
 			$correo 		= $this->input->post('Email');
 			$size			= $this->input->post('Shirt');
-			$insertParticipante = array('tipo' 	=> $participante,
+			$existe         = $this->M_Datos->existCorreo($correo);
+			if(count($existe) != 0) {
+				$data['msj']   = 'Correo ya registrado';
+			}
+			else{
+				$insertParticipante = array('tipo' 	=> $participante,
 								   'breakout' 	=> $breakout,
 								   'name' 		=> $name,
 								   'surname' 	=> $surname,
@@ -41,7 +46,49 @@ class Home extends CI_Controller {
 								   'phone' 	    => $telefono,
 								   'email' 	    => $correo,
 								   'size' 		=> $size);
-			$datoInsert  = $this->M_Datos->insertarDatos($insertParticipante,'participante');
+				$datoInsert  = $this->M_Datos->insertarDatos($insertParticipante,'participante');
+	          	$data['msj']   = $datoInsert['msj'];
+	          	$data['error'] = $datoInsert['error'];
+	          }
+		} catch(Exception $ex) {
+			$data['msj'] = $ex->getMessage();
+		}
+      	echo json_encode($data);
+	}
+	function ingresar() {
+		$data['error'] = EXIT_ERROR;
+        $data['msj']   = null;
+         try {
+			$correo   = $this->input->post('correo');
+			$username = $this->M_Datos->getDatosCorreos();
+			if(count($username) != 0) {
+				foreach ($username as $key) {
+					if ($key->email == $correo) {
+						$session = array('email' => $key->email);
+                        $this->session->set_userdata($session);
+						$data['error'] = EXIT_SUCCESS;
+					}
+				}
+			}
+        }catch(Exception $e) {
+           $data['msj'] = $e->getMessage();
+        }
+        echo json_encode($data);
+	}
+	function reserva(){
+		$data['error'] = EXIT_ERROR;
+      	$data['msj']   = null;
+		try {
+			$llegada   = $this->input->post('Llegada');
+			$retorno   = $this->input->post('Retorno');
+			$reserva   = $this->input->post('Reserva');
+			$visita    = $this->input->post('Visita');
+			$correo    = $this->session->userdata('email');
+			$actualizarParticipante = array('llegada' 	=> $llegada,
+							   'retorno' 	=> $retorno,
+							   'reserva' 	=> $reserva,
+							   'invitation' => $visita);
+			$datoInsert  = $this->M_Datos->actualizarDatos($correo, $tabla, $actualizarParticipante);
           	$data['msj']   = $datoInsert['msj'];
           	$data['error'] = $datoInsert['error'];
 		} catch(Exception $ex) {
