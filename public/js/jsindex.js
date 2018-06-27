@@ -93,7 +93,7 @@ function sendInformation(){
 				$('.js-input').find('input').val('');
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
-				$('.js-confirmation').addClass('aparecer');
+				$('#confirmation').addClass('aparecer');
         	}else{
         		msj('error', data.msj);
         		return;

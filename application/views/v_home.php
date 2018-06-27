@@ -601,7 +601,7 @@
             <div class="js-section--button text-left">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Enviar</button>
             </div>
-            <div class="js-confirmation">
+            <div id="confirmation" class="js-confirmation">
                 <h2>Gracias por registrarse</h2>
                 <p>Ahora para completar su registro y asegurar su cupo deber&aacute; ingresar su correo en la siguiente secci&oacute;n e indicarnos su fecha de llegada / salida as&iacute; como su reserva de hotel. (indispensable)</p>
             </div>
