@@ -73,7 +73,7 @@ function sendInformation(){
 				$('.js-input').find('input').val('');
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
-				msj('success',data.msj);
+				msj('success', 'Se ha registrado correctamente');
         	}else{
         		return;
         	}

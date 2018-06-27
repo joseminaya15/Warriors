@@ -34,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#principal">
+                <a class="navbar-brand link" href="#home">
                     <img src="<?php echo RUTA_IMG?>logo/hpe-intel.png">
                 </a>
             </div>
