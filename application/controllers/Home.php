@@ -79,16 +79,16 @@ class Home extends CI_Controller {
 		$data['error'] = EXIT_ERROR;
       	$data['msj']   = null;
 		try {
-			$llegada   = $this->input->post('Llegada');
-			$retorno   = $this->input->post('Retorno');
-			$reserva   = $this->input->post('Reserva');
-			$visita    = $this->input->post('Visita');
-			$correo    = $this->session->userdata('email');
+			$llegada  = implode("-", array_reverse(explode("/", $this->input->post('Llegada'))));
+			$retorno  = implode("-", array_reverse(explode("/", $this->input->post('Retorno'))));
+			$reserva  = $this->input->post('Reserva');
+			$visita   = $this->input->post('Visita');
+			$correo   = $this->session->userdata('email');
 			$actualizarParticipante = array('llegada' 	=> $llegada,
 							   'retorno' 	=> $retorno,
 							   'reserva' 	=> $reserva,
 							   'invitation' => $visita);
-			$datoInsert  = $this->M_Datos->actualizarDatos($correo, $tabla, $actualizarParticipante);
+			$datoInsert  = $this->M_Datos->actualizarDatos($correo,'participante', $actualizarParticipante);
           	$data['msj']   = $datoInsert['msj'];
           	$data['error'] = $datoInsert['error'];
 		} catch(Exception $ex) {

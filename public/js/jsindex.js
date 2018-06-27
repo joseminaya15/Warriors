@@ -133,7 +133,6 @@ function ingresar(){
 	});
 }
 function sendReserva(){
-	var 
 	var llegada    = $('#llegada').val();
 	var retorno    = $('#retorno').val();
 	var reserva    = $('#reserva').val();
@@ -159,7 +158,7 @@ function sendReserva(){
 	}
 	$.ajax({
 		data : { Llegada : llegada,
-				 Retorno : rerorno,
+				 Retorno : retorno,
 				 Reserva : reserva,
 				 Visita  : visita},
 		url  : 'home/reserva',
@@ -168,6 +167,7 @@ function sendReserva(){
 		try{
 			data = JSON.parse(data);
 			if(data.error == 0){
+				$('#ModalLogin').modal('hide');
         		msj('success', 'Registro completado');
         	}else {
         		return;
@@ -175,7 +175,7 @@ function sendReserva(){
 		} catch (err){
 			msj('error',err.message);
 		}
-	})
+	});
 }
 function validateEmail(email){
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
