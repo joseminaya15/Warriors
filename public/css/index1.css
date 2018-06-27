@@ -37,6 +37,8 @@ h2.subtitle{
 	justify-content: flex-end;
 	width: 100%;
 	text-align: right;
+	position: relative;
+	right: 50px;
 }
 .js-flex .js-flex--right p{
 	font-size: 18px;
