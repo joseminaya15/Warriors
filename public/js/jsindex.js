@@ -18,27 +18,27 @@ function sendInformation(){
 		return;
 	}
 	if(name == null || name == '') {
-		msj('error', 'Name debe completarse');
+		msj('error', 'Nombre debe completarse');
 		return;
 	}
 	if(surname == null || surname == '') {
-		msj('error', 'Surname debe completarse');
+		msj('error', 'Apellido debe completarse');
 		return;
 	}
 	if(company == null || company == '') {
-		msj('error', 'Company debe completarse');
+		msj('error', 'Empresa debe completarse');
 		return;
 	}
 	if(country == null || country == '') {
-		msj('error', 'Country debe completarse');
+		msj('error', 'País debe completarse');
 		return;
 	}
 	if(position == null || position == '') {
-		msj('error', 'Position debe completarse');
+		msj('error', 'Cargo debe completarse');
 		return;
 	}
 	if(phone == null || phone == '') {
-		msj('error', 'Phone debe completarse');
+		msj('error', 'Teléfono debe completarse');
 		return;
 	}
 	if(email == null || email == '') {
@@ -46,7 +46,7 @@ function sendInformation(){
 		return;
 	}
 	if(shirt == null || shirt == '') {
-		msj('error', 'Shirt debe completarse');
+		msj('error', 'Tall de Polo/Camisa debe completarse');
 		return;
 	}
 	if(!validateEmail(email)){

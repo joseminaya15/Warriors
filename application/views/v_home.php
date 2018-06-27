@@ -543,37 +543,37 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="js-input">
-                        <label for="text">Name*</label>
+                        <label for="text">Nombre*</label>
                         <input type="text" id="name">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="js-input">
-                        <label for="text">Surname*</label>
+                        <label for="text">Apellido*</label>
                         <input type="text" id="surname">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                      <div class=" js-input">
-                        <label for="text">Company*</label>
+                        <label for="text">Empresa*</label>
                         <input type="text" id="company" >
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">Country*</label>
+                        <label for="text">País*</label>
                         <input type="text" id="country">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">Position*</label>
+                        <label for="text">Cargo*</label>
                         <input type="text" id="position">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">Phone*</label>
+                        <label for="text">Teléfono*</label>
                         <input type="text" id="phone">
                     </div>
                 </div>
@@ -585,7 +585,7 @@
                 </div>
                 <div class="col-xs col-sm-6 col-md-4">
                     <div class="js-input js-select">
-                        <select name="shirt" id="shirt" title="Shirt or T-Shirt Size"> 
+                        <select name="shirt" id="shirt" title="Talla de Polo/Camisa"> 
                             <option value="Small">Small</option>
                             <option value="Medium">Medium</option>
                             <option value="Large">Large</option>
@@ -597,7 +597,7 @@
                 </div>
             </div>
             <div class="js-section--button text-right">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Send</button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="sendInformation()">Enviar</button>
             </div>
         </div>
     </section>
