@@ -40,12 +40,12 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item active"><a class="link" href="#home">HOME</a></li>
-                    <li class="nav-item"><a class="link" href="#partners">PARTNERS</a></li>
-                    <li class="nav-item"><a class="link" href="#agenda">AGENDA</a></li>
-                    <li class="nav-item"><a class="link" href="#logistic">LOGISTICA</a></li>
-                    <li class="nav-item"><a class="link" href="#register">REGISTRO</a></li>
-                    <li class="nav-item"><a class="link" href="#login">ACCESO REGISTRADOS</a></li>
+                    <li class="nav-item active"><a class="link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="link" href="#partners">Partners</a></li>
+                    <li class="nav-item"><a class="link" href="#agenda">Agenda</a></li>
+                    <li class="nav-item"><a class="link" href="#logistic">Logistica</a></li>
+                    <li class="nav-item"><a class="link" href="#register">Registro</a></li>
+                    <li class="nav-item"><a class="link" href="#login">Acceso Registrados</a></li>
                 </ul>
             </div>
         </div>
@@ -55,10 +55,10 @@
         <div class="js-container">
             <div class="js-home js-height js-flex">
                 <div class="js-contenido">
-                    <h2>HPE LAC Value & Growth Channels Warriors</h2>
+                    <h2>HPE LAC Hybrid IT Value & Growth Channels Warriors</h2>
                     <p>Del 7 al 9 de Agosto 2018</p>
                     <div class="js-contenido__buttons">
-                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTER HERE</a>
+                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTRESE AQUÍ</a>
                         <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">AGENDA</a>
                     </div>
                 </div>
@@ -185,9 +185,9 @@
                                     <tr>
                                         <td>5:30 p.m.</td>
                                         <td>
-                                            <ul>
+                                            <ul class="js-dont-bulled">
                                                 <li>Team Bulding Activity & Welcome Reception</li>
-                                                <li><a href="https://topgolf.com/us/houston-north/" target="_blank">Group dinner</a></li>
+                                                <li><a href="https://topgolf.com/us/houston-north/" target="_blank">Top Golf Spring</a></li>
                                                 <li>560 Spring Park Center Blvd</li>
                                                 <li>Spring, TX</li>
                                                 <li>77373</li>
@@ -295,7 +295,7 @@
                                     <tr>
                                         <td>5:30 p.m.</td>
                                         <td>
-                                            <ul>
+                                            <ul class="js-dont-bulled">
                                                 <li>Dinner at The Woodlands</li>
                                                 <li><a href="https://www.brioitalian.com/index.html" target="_blank">Brios Tuscane Grille</a></li>
                                                 <li>1201 Lake Woodlands Drive</li>
@@ -405,7 +405,7 @@
                                     <tr>
                                         <td>5:30 p.m.</td>
                                         <td>
-                                            <ul>
+                                            <ul class="js-dont-bulled">
                                                 <li>Adjourn</li>
                                                 <li><a href="http://www.premiumoutlets.com/outlet/houston" target="_blank">Free Time & Shopping</a></li>
                                             </ul>
@@ -424,7 +424,7 @@
             <h2 class="js-title white">LOGISTICA</h2>
             <div class="js-card">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#hospedaje" aria-controls="hospedaje" role="tab" data-toggle="tab">Saobre el Hospedaje</a></li>
+                    <li class="active"><a href="#hospedaje" aria-controls="hospedaje" role="tab" data-toggle="tab">Sobre el Hospedaje</a></li>
                     <li><a href="#evento" aria-controls="evento" role="tab" data-toggle="tab">Durante el evento</a></li>
                     <li><a href="#costo" aria-controls="costo" role="tab" data-toggle="tab">Costos</a></li>                
                     <li><a href="#recomendaciones" aria-controls="recomendaciones" role="tab" data-toggle="tab">Recomendaciones</a></li>
@@ -432,22 +432,30 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="hospedaje">
                         <div class="js-information">
-                            <p>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 129 por noche + impuestos.</p>
+                            <ul>
+                                <li>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 128 por noche + impuestos.</li>
+                                <li>Para aplicar a esta tarifa deberán usar el siguiente link <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-book" href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%20Value%20Partners%5EHOUZN%60HWVHWVA%60128.00%60USD%60false%601%608/6/18%608/11/18%607/16/18&app=resvlink&stop_mobi=yes" target="_blank">Book your room</a></li>
+                                <li>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</li>
+                                <li>Los participantes estar&aacute;n alojados en el hotel recomendado para el evento:</li>
+                                <li>La tarifa aplica para las noches de alojamiento entre el 6 y el 11 de Agosto.</li>
+                                <li>Esta tarifa especial expira el 16 de julio.</li>
+                                <li>La organización del evento recomienda este hotel por su cercanía al campus, su tarifa y la facilidad de desplazamientos (ida/retorno) que están incluidos. Si el participante desea alojarse en otro hotel, el transporte correrá por su cuenta.</li>
+                            </ul>
+                            <!-- <p>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 129 por noche + impuestos.</p>
                             <p>Para aplicar a esta tarifa deberán usar el siguiente <a href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%20Value%20Partners%5EHOUZN%60HWVHWVA%60128.00%60USD%60false%601%608/6/18%608/11/18%607/16/18&app=resvlink&stop_mobi=yes" target="_blank">link</a></p>
                             <p>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</p>
                             <p>Los participantes estar&aacute;n alojados en el hotel recomendado para el evento:</p>
                             <p>La tarifa aplica para las noches de alojamiento entre el 6 y el 11 de Agosto.</p>
                             <p>Esta tarifa especial expira el 16 de julio.</p>
-                            <p>La organización del evento recomienda este hotel por su cercanía al campus, su tarifa y la facilidad de desplazamientos (ida/retorno) que están incluidos. Si el participante desea alojarse en otro hotel, el transporte correrá por su cuenta.</p>
-                            <div class="js-flex--start">
+                            <p>La organización del evento recomienda este hotel por su cercanía al campus, su tarifa y la facilidad de desplazamientos (ida/retorno) que están incluidos. Si el participante desea alojarse en otro hotel, el transporte correrá por su cuenta.</p> -->
+                            <div class="js-flex--start p-20">
                                 <div class="js-information__left">
                                     <div class="js-information__left--imagen"></div>
                                 </div>
                                 <div class="js-information__right">
                                     <h2>SpringHill Suites by Marriott Houston Northwest</h2>
-                                    <font>20303 Chasewood Park Dr, Houston,</font><br>
-                                    <font>TX 77070</font><br>
-                                    <font>USA</font><br>
+                                    <p>20303 Chasewood Park Dr, Houston,</p>
+                                    <p>TX 77070, USA</p>
                                     <a href="tel:+18329532220">Tel. +1 832 953 2220</a>
                                 </div>
                             </div>
