@@ -169,6 +169,7 @@ function sendReserva(){
 			if(data.error == 0){
 				$('.js-input').find('input').val('');
 				$('#ModalLogin').modal('hide');
+				$('#registered').addClass('aparecer');
         		msj('success', 'Registro completado');
         	}else {
         		return;

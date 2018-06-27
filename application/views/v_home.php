@@ -12,7 +12,7 @@
     <meta name="theme-color"            content="#000000">
 	<title>HPE LAC Value & Growth Channels Warriors</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
-    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap/css/bootstrap.min.css?v=<?php echo time();?>">
@@ -617,6 +617,9 @@
             </div>
             <div class="js-reserva text-center">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="ingresar()">Completar Registro</button>
+            </div>
+            <div id="registered" class="js-confirmation">
+                <h2>Registro completado. ¡Nos vemos en Houston!</h2>
             </div>
         </div>
     </section>
