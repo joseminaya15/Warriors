@@ -23,7 +23,7 @@ class Admin extends CI_Controller {
             $html = '';
         }else {
             foreach ($datos as $key){
-                $html .= '<tr class="tr-cursor-pointer tr-ver-info-solicitud" data-idSolicitud="'.$cont.'">
+                $html .= '<tr class="tr-cursor-pointer">
                             <td class="text-center">'.$key->tipo.'</td>
                             <td class="text-center">'.$key->breakout.'</td>
                             <td class="text-center">'.$key->name.' '.$key->surname.'</td>
