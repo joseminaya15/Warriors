@@ -19,10 +19,12 @@ class Admin extends CI_Controller {
         $datos = $this->M_reporte->getDatosUser();
         $html  = '';
         $cont  = 1;
+        $invitado = '';
         if(count($datos) == 0) {
             $html = '';
         }else {
             foreach ($datos as $key){
+                $invitado = $key->invitation == 1 ? 'Si' : 'No';
                 $html .= '<tr class="tr-cursor-pointer">
                             <td class="text-center">'.$key->tipo.'</td>
                             <td class="text-center">'.$key->breakout.'</td>
@@ -36,7 +38,7 @@ class Admin extends CI_Controller {
                             <td class="text-center">'.$key->llegada.'</td>
                             <td class="text-center">'.$key->retorno.'</td>
                             <td class="text-center">'.$key->reserva.'</td>
-                            <td class="text-center">'.$key->invitation == 1 ? 'Si' : 'No'.'</td>
+                            <td class="text-center">'.$invitado.'</td>
                         </tr>';
                 $cont++;
             }
