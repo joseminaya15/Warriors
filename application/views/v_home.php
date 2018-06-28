@@ -524,9 +524,9 @@
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="js-input js-select">
                             <select name="participant" id="participant" title="Tipo de Participante*"> 
+                                <option value="Pre Venta Canal">Pre Venta Canal</option>
                                 <option value="HPE Employee">HPE Employee</option>
-                                <option value="Partner">Partner (Speaker)</option>
-                                <option value="Sponsor">Pre Venta Canal</option>
+                                <option value="Partner (Speaker)">Partner (Speaker)</option>
                             </select>
                         </div>
                     </div>
