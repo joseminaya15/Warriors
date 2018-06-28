@@ -23,6 +23,12 @@ class Admin extends CI_Controller {
             $html = '';
         }else {
             foreach ($datos as $key){
+                $invitado = null;
+                if($key->invitation == 1){
+                    $invitado = 'Si';
+                }else if($key->invitation == 0){
+                    $invitado = 'No';
+                }
                 $html .= '<tr class="tr-cursor-pointer">
                             <td class="text-center">'.$key->tipo.'</td>
                             <td class="text-center">'.$key->breakout.'</td>
@@ -33,6 +39,10 @@ class Admin extends CI_Controller {
                             <td class="text-center">'.$key->phone.'</td>
                             <td class="text-center">'.$key->email.'</td>
                             <td class="text-center">'.$key->size.'</td>
+                            <td class="text-center">'.$key->llegada.'</td>
+                            <td class="text-center">'.$key->retorno.'</td>
+                            <td class="text-center">'.$key->reserva.'</td>
+                            <td class="text-center">'.$invitado.'</td>
                         </tr>';
                 $cont++;
             }

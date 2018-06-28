@@ -52,6 +52,10 @@
                                     <th class="text-center">Teléfono</th>
                                     <th class="text-center">Email</th>
                                     <th class="text-center">Talla</th>
+                                    <th class="text-center">Fecha de llegada</th>
+                                    <th class="text-center">Fecha de Retorno</th>
+                                    <th class="text-center">#Reserva</th>
+                                    <th class="text-center">Shopping Mall</th>
                                 </tr>
                             </thead>
                           <tbody>
