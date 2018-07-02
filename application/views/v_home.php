@@ -75,6 +75,7 @@
                 <img src="<?php echo RUTA_IMG?>partners/redhat.png">
                 <img src="<?php echo RUTA_IMG?>partners/vmware.png">
                 <img src="<?php echo RUTA_IMG?>partners/microsoft.png">
+                <img src="<?php echo RUTA_IMG?>partners/suse.png">
             </div>
         </div>
     </section>
