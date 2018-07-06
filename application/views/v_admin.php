@@ -23,6 +23,11 @@
         <link rel="stylesheet"    href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
         <link rel="stylesheet"    href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.bootstrap.min.css">
         <link rel="stylesheet"    href="<?php echo RUTA_CSS?>admin.css?v=<?php echo time();?>">
+        <style type="text/css">
+            .js-container--admin{
+                max-width: 1350px
+            }
+        </style>
     </head>
     <body>
         <div class="js-header js-fixed">
@@ -34,7 +39,7 @@
             </div>
         </div>
         <section id="principal" class="js-section js-section--admin">
-            <div id="content" class="js-container">
+            <div id="content" class="js-container js-container--admin">
                 <div class="col-xs-12 text-right p-0">
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-logout" onclick="cerrarCesion()">Cerrar Sesión</button> 
                 </div>
@@ -89,7 +94,8 @@
                 $('#example').DataTable( {
                     searching : false,
                     responsive: true,
-                     dom: 'Bfrtip',
+                    dom: 'Bfrtip',
+                    aLengthMenu : [100],
                     buttons: [
                         {
                             extend:'excel',
@@ -99,7 +105,10 @@
                             extend:'print',
                             text: 'Imprimir'
                         }
-                    ]
+                    ],
+                    language : {
+                        info : "Mostrando _TOTAL_ registros",
+                    }
                 });
             });
         </script>
