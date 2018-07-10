@@ -460,7 +460,7 @@
                             <ul class="p-l-15">
                                 <li>Todas las sesiones se llevarán a cabo en el Conference Center CCA5 del Campus HPE: <strong>HPE Campus</strong> 11445 Compaq Center West Drive Houston, TX 77070</li>
                                 <li>Las sesiones generales se realizarán en el Houston North y los breakouts en las Salas Munich, Holland, Eskrine y Singapoure</li>
-                                <li>El evento consiste en 3 días de sesiones de 8:00 am a 5:00 pm (Del Martes 07 de Agosto al Jueves 09 de Agosto).</li>
+                                <li>El evento consiste en 3 días de sesiones en espa&ntilde;ol de 8:00 am a 5:00 pm (Del Martes 07 de Agosto al Jueves 09 de Agosto).</li>
                                 <li>El retorno al hotel está previsto una vez concluidas las actividades indicadas en la agenda.  Aquellos participantes que alquilan autos y/u opta por otro alojamiento, deberá acudir dejar su vehículo en el Springhill Hotel para poder unirse al bus para el ingreso al Conference Center.  Se recomienda evitar llevar auto al campus por limitaciones de espacio disponible para visitantes.</li>
                                 <li>La asistencia es mandatoria los 3 días de entrenamiento así como a las actividades de intregración y cena grupal</li>
                             </ul>
