@@ -512,7 +512,7 @@
                         <div class="js-input js-select">
                             <select name="gender" id="breakout" title="Breakout Sessions*"> 
                                 <option value="Datacenter Networking">Datacenter Networking</option>
-                                <option value="Composable Systems">Synergy & Blades</option>
+                                <option value="Synergy & Blades">Synergy & Blades</option>
                                 <option value="HyperConverged">HyperConverged</option>
                                 <option value="Nimble & 3PAR Storage">Nimble & 3PAR Storage</option>
                             </select>
