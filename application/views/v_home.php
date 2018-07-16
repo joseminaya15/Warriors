@@ -535,9 +535,7 @@
                         <div class="js-input js-select">
                             <select name="gender" id="breakout" title="Breakout Sessions*"> 
                                 <option value="Datacenter Networking">Datacenter Networking</option>
-                                <option value="High Performance Computing">High Performance Computing</option>
-                                <option value="Mission Critical Systems">Mission Critical Systems</option>
-                                <option value="Composable Systems">Composable Systems</option>
+                                <option value="Composable Systems">Synergy & Blades</option>
                                 <option value="HyperConverged">HyperConverged</option>
                                 <option value="Nimble & 3PAR Storage">Nimble & 3PAR Storage</option>
                             </select>
