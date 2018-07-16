@@ -101,15 +101,15 @@
                                 <tbody>
                                     <tr>
                                         <td>8:00 a.m.</td>
-                                        <td>Welcome & Kick Off</td>
+                                        <td>Welcome & Kickoff - Bernardo Miretzky/Cesar Suarez/Andres Campuzano</td>
                                     </tr>
                                     <tr>
                                         <td>8:15 a.m.</td>
-                                        <td>HIT Strategy</td>
+                                        <td>HIT Strategy - Campuzano/Soto</td>
                                     </tr>
                                     <tr>
                                         <td>9:30 a.m.</td>
-                                        <td>Intel Session</td>
+                                        <td>Intel - Marco Dimaria</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -117,11 +117,11 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>VMware Session</td>
+                                        <td>Vmware - Vmware</td>
                                     </tr>
                                     <tr>
                                         <td>10:45 a.m.</td>
-                                        <td>LAC HIT Channel Enablement Roadmap</td>
+                                        <td>LAC HIT Channel Enablement Roadmap - Mariano</td>
                                     </tr>
                                     <tr>
                                         <td>11:45 a.m.</td>
@@ -133,8 +133,8 @@
                                             <ul>
                                                 <li><strong>STORAGE: </strong>HPE Storage Strategy and Positioning: <strong>Luis Pablo Acalá</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Standard SimpliVity Pitch Warrior General Presentation, Roadmap, Portfolio Positioning and Sales Tips</li>
-                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence - Andrés Campuzano</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning (including comparison with Aruba) + DCN Opportunities ToR</li>
+                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence</strong></li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning (including comparison with Aruba) + DCN Opportunities ToR <strong>Felipe/Jairo</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -143,9 +143,9 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Understanding 3PAR Performance and how you can help your customers understand what's going on in their environment</li>
-                                                <li><strong>SIMPLIVITY: </strong>SimpliVity’s Secret Sauce: The Data Virtualization Platform Deep Dive: <strong>Rick Gay</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>SimpliVity’s Secret Sauce: The Data Virtualization Platform Deep Dive: <strong>Mauricio Walder</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence - Andrés Campuzano</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning Portfolio Overview (including Gree-/Red zone) and SDN Update (Technologies)</li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning Portfolio Overview (including Gree-/Red zone) and SDN Update (Technologies) <strong>Felipe/Jairo</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -158,9 +158,9 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>3PAR competitive session: <strong>Jorge Maestre</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>Competitive and Differentiation and Best Practices</li>
+                                                <li><strong>SIMPLIVITY: </strong>Competitive and Differentiation and Best Practices <strong>Bernardo Miretzky</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE Synergy Solutions to future-proof the data center: <strong>Ana Porras</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages)</li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages) <strong>Felipe/Jairo</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -171,7 +171,7 @@
                                                 <li><strong>STORAGE: </strong>3PAR and infosight HandOnLab: <strong>Cris Smit</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
                                                 <li><strong>SYNERGY: </strong>Understanding Your Competition: Breakdown of Competitive Products - <strong>John Reed</strong></li>
-                                                <li><strong>DCN: </strong>TBD</li>
+                                                <li><strong>DCN: </strong>Vmware NXS - <strong>Juan Manuel Romero</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -179,7 +179,7 @@
                                         <td>5:30 p.m.</td>
                                         <td>
                                             <ul class="js-dont-bulled">
-                                                <li>Team Bulding Activity & Welcome Reception</li>
+                                                <li>Team Bulding Activity - Top Golf & Welcome Reception</li>
                                                 <li><a href="https://topgolf.com/us/houston-north/" target="_blank">Top Golf Spring</a></li>
                                                 <li>560 Spring Park Center Blvd</li>
                                                 <li>Spring, TX</li>
@@ -203,11 +203,11 @@
                                 <tbody>
                                     <tr>
                                         <td>8:00 a.m.</td>
-                                        <td>HPE Pointnext: GreenLake & Service offers for the Value & Growth product categories</td>
+                                        <td>HPE Pointnext: GreenLake & Service offers for the Value & Growth product categories - <strong>Ramon Quintana</strong></td>
                                     </tr>
                                     <tr>
                                         <td>9:30 a.m.</td>
-                                        <td>Veeam</td>
+                                        <td>Veeam - <strong>Luis Pablo</strong></td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -215,15 +215,11 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Redhat</td>
+                                        <td>Microsoft - <strong>Yuri Luna</strong></td>
                                     </tr>
                                     <tr>
                                         <td>10:45 a.m.</td>
-                                        <td>Infrastructure options 101, portfolio and roadmap</td>
-                                    </tr>
-                                    <tr>
-                                        <td>11:15 a.m.</td>
-                                        <td>Persistent Memory 101, portfolio & roadmap</td>
+                                        <td>Compute Volume - Leonardo Berdiales</td>
                                     </tr>
                                     <tr>
                                         <td>11:45 a.m.</td>
@@ -234,8 +230,8 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Nimble Storage Platform/Architecture Overview: <strong>Marcos Barros</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>izing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Ron Singler</strong></li>
-                                                <li><strong>SYNERGY: </strong>Deploy and update apps and infrastructure in minutes with composable infrastructure and HPE Synergy Image Streamer: <strong>LSahana Sampige Prabhaka</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto/Mauricio Walder</strong></li>
+                                                <li><strong>SYNERGY: </strong>Deploy and update apps and infrastructure in minutes with composable infrastructure and HPE Synergy Image Streamer: <strong>Sahana Sampige Prabhaka</strong></li>
                                                 <li><strong>DCN: </strong>Competitive & Technical (comparing to Cisco, Dell), Attach Examples</li>
                                             </ul>
                                         </td>
@@ -244,10 +240,10 @@
                                         <td>1:30 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Sizing Nimble Storage Solutions with NinjaSTARS Sizer tool - Hands on Lab</li>
-                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity Solutions - Reference Architectures, Technical Whitepapers and others</li>
+                                                <li><strong>STORAGE: </strong>Sizing Nimble Storage Solutions with NinjaSTARS Sizer tool - Hands on Lab <strong>Marcos Barros</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto/Mauricio Walder</strong></li>
                                                 <li><strong>SYNERGY: </strong>Speed delivery and efficiencies of infrastructure and services with a Hybrid IT strategy built on composable infrastructure: <strong>Peter Groth</strong></li>
-                                                <li><strong>DCN: </strong>Competitive & Technical: Design & Sizing & Configuration and Tools & Resources.</li>
+                                                <li><strong>DCN: </strong>Competitive & Technical: Design & Sizing & Configuration and Tools & Resources. <strong>Felipe/Jairo</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -259,10 +255,10 @@
                                         <td>2:45 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Nimble Competitive position</li>
-                                                <li><strong>SIMPLIVITY: </strong>HPE Simplivity VDI: <strong>Jason Shiplett</strong></li>
+                                                <li><strong>STORAGE: </strong>Nimble Competitive position - <strong>Marcos Barros</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity Solutions - Reference Architectures, Technical Whitepapers and others - <strong>Bernardo Miretzky/Leonardo Soto</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE OneView QuickStart with Hands-on-training: <strong>David McWilliams</strong></li>
-                                                <li><strong>DCN: </strong>Understanding Network Architectures for HPE's Hybrid-IT solutions</li>
+                                                <li><strong>DCN: </strong>Understanding Network Architectures for HPE's Hybrid-IT solutions - <strong>Felipe/Jairo</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -271,9 +267,9 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Nimble Storage Hands on Lab</li>
-                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab Hyper-V</li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 2600 - <strong>Matt Haron</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE OneView QuickStart with Hands-on-training: <strong>David McWilliams</strong></li>
-                                                <li><strong>DCN: </strong>TBD</li>
+                                                <li><strong>DCN: </strong>Arista - <strong>Jairo/Felipe</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -306,11 +302,19 @@
                                 <tbody>
                                     <tr>
                                         <td>8:00 a.m.</td>
-                                        <td>3PAR Storage Keynote</td>
+                                        <td>Storage Keynote</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8:30 a.m.</td>
+                                        <td>Scality - <strong>Luis P Alcala</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a.m.</td>
+                                        <td>Suse - <strong>Gualberto Huerta</strong></td>
                                     </tr>
                                     <tr>
                                         <td>9:30 a.m.</td>
-                                        <td>AMD</td>
+                                        <td>AMD - <strong>Leo Berdiales</strong></td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -318,7 +322,7 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Sponsor Session</td>
+                                        <td>RedHat - <strong>Andres Campuzano</strong></td>
                                     </tr>
                                     <tr>
                                         <td>10:45 a.m.</td>
@@ -375,8 +379,7 @@
                                             <ul>
                                                 <li><strong>STORAGE: </strong>MSA HandsOn Lab</li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
-                                                <li><strong>SYNERGY: </strong>Transform Hybrid IT with VMware Cloud Foundation and HPE Synergy</li>
-                                                <li><strong>DCN: </strong>TBD</li>
+                                                <li><strong>SYNERGY: </strong>Transform Hybrid IT with VMware Cloud Foundation and HPE Synergy - <strong>TBC (Juan Manuel)</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
