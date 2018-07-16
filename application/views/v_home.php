@@ -134,8 +134,6 @@
                                                 <li><strong>STORAGE: </strong>HPE Storage Strategy and Positioning: <strong>Luis Pablo Acalá</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Standard SimpliVity Pitch Warrior General Presentation, Roadmap, Portfolio Positioning and Sales Tips</li>
                                                 <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence - Andrés Campuzano</strong></li>
-                                                <li><strong>MCS: </strong>Intro to SAP HANA: <strong>Paul Chisari</strong></li>
-                                                <li><strong>HPC: </strong>HPE HPC & AI Portfolio & Roadmap</li>
                                                 <li><strong>DCN: </strong>Strategy & Positioning (including comparison with Aruba) + DCN Opportunities ToR</li>
                                             </ul>
                                         </td>
@@ -147,8 +145,6 @@
                                                 <li><strong>STORAGE: </strong>Understanding 3PAR Performance and how you can help your customers understand what's going on in their environment</li>
                                                 <li><strong>SIMPLIVITY: </strong>SimpliVity’s Secret Sauce: The Data Virtualization Platform Deep Dive: <strong>Rick Gay</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence - Andrés Campuzano</strong></li>
-                                                <li><strong>MCS: </strong>HANA Portfolio & Roadmap Update - FY'18 and Beyond</li>
-                                                <li><strong>HPC: </strong>Apollo 2000 Gen 10 for HPC</li>
                                                 <li><strong>DCN: </strong>Strategy & Positioning Portfolio Overview (including Gree-/Red zone) and SDN Update (Technologies)</li>
                                             </ul>
                                         </td>
@@ -164,8 +160,6 @@
                                                 <li><strong>STORAGE: </strong>3PAR competitive session: <strong>Jorge Maestre</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Competitive and Differentiation and Best Practices</li>
                                                 <li><strong>SYNERGY: </strong>HPE Synergy Solutions to future-proof the data center: <strong>Ana Porras</strong></li>
-                                                <li><strong>MCS: </strong>Mission Critical Platforms for x86 Updates (SD FLEX, Superdome X, MC990)</li>
-                                                <li><strong>HPC: </strong>Apollo 6000 Gen 10 for HPC</li>
                                                 <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages)</li>
                                             </ul>
                                         </td>
@@ -177,8 +171,6 @@
                                                 <li><strong>STORAGE: </strong>3PAR and infosight HandOnLab: <strong>Cris Smit</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
                                                 <li><strong>SYNERGY: </strong>Understanding Your Competition: Breakdown of Competitive Products - <strong>John Reed</strong></li>
-                                                <li><strong>MCS: </strong>Learn How to Run our Mission critical Sales Plays - <strong>Paul Chisari</strong></li>
-                                                <li><strong>HPC: </strong>TBD</li>
                                                 <li><strong>DCN: </strong>TBD</li>
                                             </ul>
                                         </td>
@@ -244,8 +236,6 @@
                                                 <li><strong>STORAGE: </strong>Nimble Storage Platform/Architecture Overview: <strong>Marcos Barros</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>izing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Ron Singler</strong></li>
                                                 <li><strong>SYNERGY: </strong>Deploy and update apps and infrastructure in minutes with composable infrastructure and HPE Synergy Image Streamer: <strong>LSahana Sampige Prabhaka</strong></li>
-                                                <li><strong>MCS: </strong>HANA Operational Readiness / Ecosystem and platform update</li>
-                                                <li><strong>HPC: </strong>Apollo sx40, 35, 70</li>
                                                 <li><strong>DCN: </strong>Competitive & Technical (comparing to Cisco, Dell), Attach Examples</li>
                                             </ul>
                                         </td>
@@ -257,8 +247,6 @@
                                                 <li><strong>STORAGE: </strong>Sizing Nimble Storage Solutions with NinjaSTARS Sizer tool - Hands on Lab</li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity Solutions - Reference Architectures, Technical Whitepapers and others</li>
                                                 <li><strong>SYNERGY: </strong>Speed delivery and efficiencies of infrastructure and services with a Hybrid IT strategy built on composable infrastructure: <strong>Peter Groth</strong></li>
-                                                <li><strong>MCS: </strong>Best Practices for Smart CID for HANA</li>
-                                                <li><strong>HPC: </strong>Apollo 6500 Gen 10 and Deep Learning</li>
                                                 <li><strong>DCN: </strong>Competitive & Technical: Design & Sizing & Configuration and Tools & Resources.</li>
                                             </ul>
                                         </td>
@@ -274,8 +262,6 @@
                                                 <li><strong>STORAGE: </strong>Nimble Competitive position</li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE Simplivity VDI: <strong>Jason Shiplett</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE OneView QuickStart with Hands-on-training: <strong>David McWilliams</strong></li>
-                                                <li><strong>MCS: </strong>OCA for HANA/MCS</li>
-                                                <li><strong>HPC: </strong>HPE HPC Software Portfolio Strategy & Roadmap</li>
                                                 <li><strong>DCN: </strong>Understanding Network Architectures for HPE's Hybrid-IT solutions</li>
                                             </ul>
                                         </td>
@@ -287,8 +273,6 @@
                                                 <li><strong>STORAGE: </strong>Nimble Storage Hands on Lab</li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab Hyper-V</li>
                                                 <li><strong>SYNERGY: </strong>HPE OneView QuickStart with Hands-on-training: <strong>David McWilliams</strong></li>
-                                                <li><strong>MCS: </strong>TBD</li>
-                                                <li><strong>HPC: </strong>TBD</li>
                                                 <li><strong>DCN: </strong>TBD</li>
                                             </ul>
                                         </td>
@@ -355,8 +339,6 @@
                                                 <li><strong>STORAGE: </strong>Data Protection Portfolio Overview: <strong>Luis Pablo Acalá</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>SimpliVity Backup and Disaster Recovery Best Practices: <strong>Tim Antonowicz</strong></li>
                                                 <li><strong>SYNERGY: </strong>Build and manage infrastructures and applications while maintaining compliance using Chef solutions and HPE Synergy: <strong>Gary Stevens - Ka Wai Leung</strong></li>
-                                                <li><strong>MCS: </strong>Retire More Quota with HPE Database Performance Pro(DPP) for Oracle</li>
-                                                <li><strong>HPC: </strong>TBD</li>
                                                 <li><strong>DCN: </strong>It's all about the Workloads!’ How workloads affect Fabric design.</li>
                                             </ul>
                                         </td>
@@ -368,8 +350,6 @@
                                                 <li><strong>STORAGE: </strong>Ninja Protected and proper sizing for a StoreOnce environment</li>
                                                 <li><strong>SIMPLIVITY: </strong>Automating a SimpliVity Federation with RESTful APIs and PowerShell: <strong>Ron Singler</strong></li>
                                                 <li><strong>SYNERGY: </strong>Modernize traditional applications using Docker containers on HPE Synergy, the first composable infrastructure: <strong>Gary Stevens - Ka Wai Leung</strong></li>
-                                                <li><strong>MCS: </strong>Competing and Winning against Oracle Exadata</li>
-                                                <li><strong>HPC: </strong>TBD</li>
                                                 <li><strong>DCN: </strong>It's all about the Workloads!’ How workloads affect Fabric design.</li>
                                             </ul>
                                         </td>
@@ -385,7 +365,6 @@
                                                 <li><strong>STORAGE: </strong>Entry Storage Portfolio and positioning</li>
                                                 <li><strong>SIMPLIVITY: </strong>Positioning HPE SimpliVity 380: <strong>Ron Singler</strong></li>
                                                 <li><strong>SYNERGY: </strong>Enable infrastructure automation using Red Hat OpenShift, Ansible Automation with HPE Synergy and Composable Infrastructure: <strong>Gary Stevens - Ka Wai Leung</strong></li>
-                                                <li><strong>HPC: </strong>Yes, You can virtualize Oracle with VMware!</li>
                                                 <li><strong>DCN: </strong>Holy Cow! My customer is talking about Docker and I can't tell a docker container from a docker image!</li>
                                             </ul>
                                         </td>
@@ -397,8 +376,6 @@
                                                 <li><strong>STORAGE: </strong>MSA HandsOn Lab</li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
                                                 <li><strong>SYNERGY: </strong>Transform Hybrid IT with VMware Cloud Foundation and HPE Synergy</li>
-                                                <li><strong>MCS: </strong>Take Out IBM and Oracle with HPE's MCS x86 Platforms for Databases</li>
-                                                <li><strong>HPC: </strong>TBD</li>
                                                 <li><strong>DCN: </strong>TBD</li>
                                             </ul>
                                         </td>
