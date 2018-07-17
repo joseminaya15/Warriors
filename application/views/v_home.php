@@ -419,7 +419,7 @@
                                 <li>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</li>
                                 <li>Los participantes estar&aacute;n alojados en el hotel recomendado para el evento:</li>
                                 <li>La tarifa aplica para las noches de alojamiento entre el 6 y el 11 de Agosto.</li>
-                                <li>Esta tarifa especial expira el 16 de julio.</li>
+                                <li>Esta tarifa especial expira el 23 de julio.</li>
                                 <li>La organización del evento recomienda este hotel por su cercanía al campus, su tarifa y la facilidad de desplazamientos (ida/retorno) que están incluidos. Si el participante desea alojarse en otro hotel, el transporte correrá por su cuenta.</li>
                             </ul>
                             <div class="js-flex--start">
