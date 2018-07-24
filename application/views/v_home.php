@@ -57,6 +57,7 @@
                 <div class="js-contenido">
                     <h2>HPE LAC Hybrid IT Value & Growth Channels Warriors</h2>
                     <p>Del 7 al 9 de Agosto 2018</p>
+                    <p>Houston, Tx</p>
                     <div class="js-contenido__buttons">
                         <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTRESE AQUÍ</a>
                         <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">AGENDA</a>
@@ -415,7 +416,7 @@
                         <div class="js-information p-20">
                             <ul class="p-l-15">
                                 <li>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 128 por noche + impuestos.</li>
-                                <li>Para aplicar a esta tarifa deberán usar el siguiente link <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-book" href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%20Value%20Partners%5EHOUZN%60HWVHWVA%60128.00%60USD%60false%601%608/6/18%608/11/18%607/16/18&app=resvlink&stop_mobi=yes" target="_blank">Book your room</a></li>
+                                <li>Para aplicar a esta tarifa deberán usar el siguiente link <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-book" href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%5EHOUZN%60hwvhwva%60128.00%60USD%60false%601%608/5/18%608/11/18%607/29/18&app=resvlink&stop_mobi=yes" target="_blank">Book your room</a></li>
                                 <li>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</li>
                                 <li>Los participantes estar&aacute;n alojados en el hotel recomendado para el evento:</li>
                                 <li>La tarifa aplica para las noches de alojamiento entre el 6 y el 11 de Agosto.</li>
@@ -517,7 +518,7 @@
                                 <option value="Datacenter Networking">Datacenter Networking</option>
                                 <option value="Synergy & Blades">Synergy & Blades</option>
                                 <!-- <option value="HyperConverged">HyperConverged</option> -->
-                                <option value="Nimble & 3PAR Storage">Nimble & 3PAR Storage</option>
+                                <!-- <option value="Nimble & 3PAR Storage">Nimble & 3PAR Storage</option> -->
                             </select>
                         </div>
                     </div>
