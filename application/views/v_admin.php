@@ -48,19 +48,19 @@
                         <table id="example" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
                             <thead>
                                 <tr class="tr-header-reporte">
-                                    <th class="text-center">Tipo</th>
-                                    <th class="text-center">Breakout Session</th>
-                                    <th class="text-center">Nombre</th>
-                                    <th class="text-center">Empresa(Canal)</th>
-                                    <th class="text-center">País</th>
-                                    <th class="text-center">Cargo</th>
-                                    <th class="text-center">Teléfono</th>
-                                    <th class="text-center">Email</th>
-                                    <th class="text-center">Talla</th>
+                                    <th class="text-left">Tipo</th>
+                                    <th class="text-left">Breakout Session</th>
+                                    <th class="text-left">Nombre</th>
+                                    <th class="text-left">Empresa(Canal)</th>
+                                    <th class="text-left">País</th>
+                                    <th class="text-left">Cargo</th>
+                                    <th class="text-right">Teléfono</th>
+                                    <th class="text-left">Email</th>
+                                    <th class="text-left">Talla</th>
                                     <th class="text-center">Fecha de llegada</th>
                                     <th class="text-center">Fecha de Retorno</th>
-                                    <th class="text-center">#Reserva</th>
-                                    <th class="text-center">Shopping Mall</th>
+                                    <th class="text-right">#Reserva</th>
+                                    <th class="text-left">Shopping Mall</th>
                                 </tr>
                             </thead>
                           <tbody>

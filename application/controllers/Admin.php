@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin extends CI_Controller {
@@ -24,21 +24,21 @@ class Admin extends CI_Controller {
             $html = '';
         }else {
             foreach ($datos as $key){
-                $invitado = $key->invitation == 1 ? 'Si' : 'No';
+		$invitado = $key->invitation == 1 ? 'Si' : 'No';
                 $html .= '<tr class="tr-cursor-pointer">
-                            <td class="text-center">'.$key->tipo.'</td>
-                            <td class="text-center">'.$key->breakout.'</td>
-                            <td class="text-center">'.$key->name.' '.$key->surname.'</td>
-                            <td class="text-center">'.$key->company.'</td>
-                            <td class="text-center">'.$key->country.'</td>
-                            <td class="text-center">'.$key->position.'</td>
-                            <td class="text-center">'.$key->phone.'</td>
-                            <td class="text-center">'.$key->email.'</td>
-                            <td class="text-center">'.$key->size.'</td>
+                            <td class="text-left">'.$key->tipo.'</td>
+                            <td class="text-left">'.$key->breakout.'</td>
+                            <td class="text-left">'.$key->name.' '.$key->surname.'</td>
+                            <td class="text-left">'.$key->company.'</td>
+                            <td class="text-left">'.$key->country.'</td>
+                            <td class="text-left">'.$key->position.'</td>
+                            <td class="text-right">'.$key->phone.'</td>
+                            <td class="text-left">'.$key->email.'</td>
+                            <td class="text-left">'.$key->size.'</td>
                             <td class="text-center">'.$key->llegada.'</td>
                             <td class="text-center">'.$key->retorno.'</td>
-                            <td class="text-center">'.$key->reserva.'</td>
-                            <td class="text-center">'.$invitado.'</td>
+                            <td class="text-right">'.$key->reserva.'</td>
+                            <td class="text-left">'.$invitado.'</td>
                         </tr>';
                 $cont++;
             }
