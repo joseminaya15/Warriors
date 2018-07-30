@@ -90,7 +90,7 @@
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
-                        <div class="table-responsive">
+                        <div class="table-responsive js-table">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -100,86 +100,86 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>8:00 a.m.</td>
-                                        <td>Welcome & Kickoff - Bernardo Miretzky/Cesar Suarez/Andres Campuzano</td>
+                                        <td class="col-xs-1">8:00 a.m.</td>
+                                        <td>Welcome & Kickoff</td>
                                     </tr>
                                     <tr>
-                                        <td>8:15 a.m.</td>
-                                        <td>HIT Strategy - Campuzano/Soto</td>
+                                        <td class="col-xs-1">8:15 a.m.</td>
+                                        <td>HIT Strategy - Andres Campuzano</td>
                                     </tr>
                                     <tr>
-                                        <td>9:30 a.m.</td>
-                                        <td>Intel - Marco Dimaria</td>
+                                        <td class="col-xs-1">9:30 a.m.</td>
+                                        <td>Intel - TBC</td>
                                     </tr>
                                     <tr>
-                                        <td>10:00 a.m.</td>
+                                        <td class="col-xs-1">10:00 a.m.</td>
                                         <td><strong>Break</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:15 a.m.</td>
-                                        <td>Vmware - Vmware</td>
+                                        <td class="col-xs-1">10:15 a.m.</td>
+                                        <td>Vmware - Juan Manuel Romero</td>
                                     </tr>
                                     <tr>
-                                        <td>10:45 a.m.</td>
+                                        <td class="col-xs-1">10:45 a.m.</td>
                                         <td>LAC HIT Channel Enablement Roadmap - Mariano</td>
                                     </tr>
                                     <tr>
-                                        <td>11:45 a.m.</td>
+                                        <td class="col-xs-1">11:45 a.m.</td>
                                         <td><strong>LUNCH</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>12:30 p.m.</td>
+                                        <td class="col-xs-1">12:30 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>HPE Storage Strategy and Positioning: <strong>Luis Pablo Acalá</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>Standard SimpliVity Pitch Warrior General Presentation, Roadmap, Portfolio Positioning and Sales Tips</li>
-                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning (including comparison with Aruba) + DCN Opportunities ToR <strong>Felipe/Jairo</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>Standard SimpliVity Pitch Warrior: General Presentation, Roadmap, Portfolio Positioning and Sales Tips <strong>Leonardo Soto</strong></li>
+                                                <li><strong>SYNERGY: </strong>HPE Synergy Solutions to future-proof the data center: <strong>Ana Porras</strong></li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning(including comparison with Aruba) + DCN Opportunities ToR, Upgrade 25/100/Core <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>1:30 p.m.</td>
+                                        <td class="col-xs-1">1:30 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Understanding 3PAR Performance and how you can help your customers understand what's going on in their environment</li>
+                                                <li><strong>STORAGE: </strong>Understanding 3PAR Performance and how you can help your customers understand what's going on in their environment <strong>John Dillon</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>SimpliVity’s Secret Sauce: The Data Virtualization Platform Deep Dive: <strong>Mauricio Walder</strong></li>
-                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview with hands-on-training: <strong>Leigh Torrence - Andrés Campuzano</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning Portfolio Overview (including Gree-/Red zone) and SDN Update (Technologies) <strong>Felipe/Jairo</strong></li>
+                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Overview - <strong>Chris Powell</strong>. Deploy and Update apps and infrastructure in minutes with composable Infrastructure and HPE Synergy Image Streamer - <strong>Chris Powell</strong></li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning Portfolio Overview (including Gree-/Red zone) + SDN Update (Technologies) <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>2:30 p.m.</td>
+                                        <td class="col-xs-1">2:30 p.m.</td>
                                         <td><strong>Break</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>2:45 p.m.</td>
+                                        <td class="col-xs-1">2:45 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>3PAR competitive session: <strong>Jorge Maestre</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Competitive and Differentiation and Best Practices <strong>Bernardo Miretzky</strong></li>
-                                                <li><strong>SYNERGY: </strong>HPE Synergy Solutions to future-proof the data center: <strong>Ana Porras</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages) <strong>Felipe/Jairo</strong></li>
+                                                <li><strong>SYNERGY: </strong>Understanding Your Competitive Advantages <strong>Chris Powell</strong></li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages) - <strong>Juan M Romero</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>3:45 p.m.</td>
+                                        <td class="col-xs-1">3:45 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>3PAR and infosight HandOnLab: <strong>Cris Smit</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
-                                                <li><strong>SYNERGY: </strong>Understanding Your Competition: Breakdown of Competitive Products - <strong>John Reed</strong></li>
-                                                <li><strong>DCN: </strong>Vmware NXS - <strong>Juan Manuel Romero</strong></li>
+                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Hands-On-Training (OneView using Synergy DCS) <strong>Andrew Leber/Chris Powell</strong></li>
+                                                <li><strong>DCN: </strong>HPE DCN with VMware NSX - <strong>Juan Manuel Romero</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>5:30 p.m.</td>
+                                        <td class="col-xs-1">5:30 p.m.</td>
                                         <td>
                                             <ul class="js-dont-bulled">
-                                                <li>Team Bulding Activity - Top Golf & Welcome Reception</li>
+                                                <li>Team Bulding Activity & Welcome Reception</li>
                                                 <li><a href="https://topgolf.com/us/houston-north/" target="_blank">Top Golf Spring</a></li>
                                                 <li>560 Spring Park Center Blvd</li>
                                                 <li>Spring, TX</li>
@@ -192,7 +192,7 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="agosto8">
-                        <div class="table-responsive">
+                        <div class="table-responsive js-table">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -202,79 +202,78 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>8:00 a.m.</td>
+                                        <td class="col-xs-1">8:00 a.m.</td>
                                         <td>HPE Pointnext: GreenLake & Service offers for the Value & Growth product categories - <strong>Ramon Quintana</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>9:30 a.m.</td>
-                                        <td>Veeam - <strong>Luis Pablo</strong></td>
+                                        <td class="col-xs-1">9:30 a.m.</td>
+                                        <td>Veeam - <strong>Juan Altemar</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:00 a.m.</td>
+                                        <td class="col-xs-1">10:00 a.m.</td>
                                         <td><strong>Break</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:15 a.m.</td>
+                                        <td class="col-xs-1">10:15 a.m.</td>
                                         <td>Microsoft - <strong>Yuri Luna</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:45 a.m.</td>
-                                        <td>Compute Volume - Leonardo Berdiales</td>
+                                        <td class="col-xs-1">10:45 a.m.</td>
+                                        <td>Compute Volume - <strong>Leonardo Berdiales</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>11:45 a.m.</td>
+                                        <td class="col-xs-1">11:45 a.m.</td>
                                         <td><strong>LUNCH</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>12:30 p.m.</td>
+                                        <td class="col-xs-1">12:30 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Nimble Storage Platform/Architecture Overview: <strong>Marcos Barros</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto/Mauricio Walder</strong></li>
-                                                <li><strong>SYNERGY: </strong>Deploy and update apps and infrastructure in minutes with composable infrastructure and HPE Synergy Image Streamer: <strong>Sahana Sampige Prabhaka</strong></li>
-                                                <li><strong>DCN: </strong>Competitive & Technical (comparing to Cisco, Dell), Attach Examples</li>
+                                                <li><strong>SYNERGY: </strong>Virtual Connect Technologies - <strong>Andrew Leber</strong>. Vmware including VSAN and OneView for vCenter - <strong>Andrew Leber</strong></li>
+                                                <li><strong>DCN: </strong>Competitive & Technical (comparing to Cisco, Dell), Attach Examples - <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>1:30 p.m.</td>
+                                        <td class="col-xs-1">1:30 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Sizing Nimble Storage Solutions with NinjaSTARS Sizer tool - Hands on Lab <strong>Marcos Barros</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto/Mauricio Walder</strong></li>
-                                                <li><strong>SYNERGY: </strong>Speed delivery and efficiencies of infrastructure and services with a Hybrid IT strategy built on composable infrastructure: <strong>Peter Groth</strong></li>
-                                                <li><strong>DCN: </strong>Competitive & Technical: Design & Sizing & Configuration and Tools & Resources. <strong>Felipe/Jairo</strong></li>
+                                                <li><strong>SYNERGY: </strong>Converged System CS750 Based on Synergy Composable infrastructure - <strong>Andres Campuzano</strong></li>
+                                                <li><strong>DCN: </strong>Competitive & Technical: Design & Sizing & Configuration and Tools & Resources. <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>2:30 p.m.</td>
+                                        <td class="col-xs-1">2:30 p.m.</td>
                                         <td><strong>Break</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>2:45 p.m.</td>
+                                        <td class="col-xs-1">2:45 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Nimble Competitive position - <strong>Marcos Barros</strong></li>
+                                                <li><strong>STORAGE: </strong>Nimble Competitive position - <strong>John Duffy</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity Solutions - Reference Architectures, Technical Whitepapers and others - <strong>Bernardo Miretzky/Leonardo Soto</strong></li>
-                                                <li><strong>SYNERGY: </strong>HPE OneView QuickStart with Hands-on-training: <strong>David McWilliams</strong></li>
-                                                <li><strong>DCN: </strong>Understanding Network Architectures for HPE's Hybrid-IT solutions - <strong>Felipe/Jairo</strong></li>
+                                                <li><strong>SYNERGY: </strong>Transform Hybrid IT with VMware Cloud Foundation and HPE Synergy: <strong>Juan Manuel Romero (Vmware LATAM)</strong></li>
+                                                <li><strong>DCN: </strong>(DCN02) Understanding Network Architectures for HPE's Hybrid-IT solutions - <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>3:45 p.m.</td>
+                                        <td class="col-xs-1">3:45 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Nimble Storage Hands on Lab</li>
+                                                <li><strong>STORAGE: </strong>Nimble Storage Hands on Lab <strong>Janice, Luan</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 2600 - <strong>Matt Haron</strong></li>
-                                                <li><strong>SYNERGY: </strong>HPE OneView QuickStart with Hands-on-training: <strong>David McWilliams</strong></li>
-                                                <li><strong>DCN: </strong>Arista - <strong>Jairo/Felipe</strong></li>
+                                                <li><strong>SYNERGY: </strong>Synergy Technology Roadmap and Futures - <strong>Richard Scruggs</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>5:30 p.m.</td>
+                                        <td class="col-xs-1">5:30 p.m.</td>
                                         <td>
                                             <ul class="js-dont-bulled">
                                                 <li>Dinner at The Woodlands</li>
@@ -291,7 +290,7 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="agosto9">
-                        <div class="table-responsive">
+                        <div class="table-responsive js-table">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -301,90 +300,86 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>8:00 a.m.</td>
-                                        <td>Storage Keynote</td>
+                                        <td class="col-xs-1">8:00 a.m.</td>
+                                        <td>Storage Keynote <strong> Luis P. Acala/Jorge Maestre</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>8:30 a.m.</td>
-                                        <td>Scality - <strong>Luis P Alcala</strong></td>
+                                        <td class="col-xs-1">8:30 a.m.</td>
+                                        <td>Scality - <strong>Juan Altemar</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>9:00 a.m.</td>
+                                        <td class="col-xs-1">9:00 a.m.</td>
                                         <td>Suse - <strong>Gualberto Huerta</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>9:30 a.m.</td>
-                                        <td>AMD - <strong>Leo Berdiales</strong></td>
+                                        <td class="col-xs-1">9:30 a.m.</td>
+                                        <td>AMD - <strong>Guadarrama, Eduardo/Gonzalez, Ralph</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:00 a.m.</td>
+                                        <td class="col-xs-1">10:00 a.m.</td>
                                         <td><strong>Break</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:15 a.m.</td>
-                                        <td>RedHat - <strong>Andres Campuzano</strong></td>
+                                        <td class="col-xs-1">10:15 a.m.</td>
+                                        <td>RedHat - <strong>Mariano Fernandez</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>10:45 a.m.</td>
-                                        <td>HIT Volume Session</td>
+                                        <td class="col-xs-1">10:45 a.m.</td>
+                                        <td>Storage Volume - <strong>Luis Pablo Alcala</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>11:15 a.m.</td>
-                                        <td>HIT Volume Session (cont.)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>11:45 a.m.</td>
+                                        <td class="col-xs-1">11:45 a.m.</td>
                                         <td><strong>LUNCH</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>12:30 p.m.</td>
+                                        <td class="col-xs-1">12:30 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Data Protection Portfolio Overview: <strong>Luis Pablo Acalá</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>SimpliVity Backup and Disaster Recovery Best Practices: <strong>Tim Antonowicz</strong></li>
-                                                <li><strong>SYNERGY: </strong>Build and manage infrastructures and applications while maintaining compliance using Chef solutions and HPE Synergy: <strong>Gary Stevens - Ka Wai Leung</strong></li>
-                                                <li><strong>DCN: </strong>It's all about the Workloads!’ How workloads affect Fabric design.</li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE Simplivity VDI <strong>Jason Shiplett</strong></li>
+                                                <li><strong>SYNERGY: </strong>Helping customers modernize their applications and infrastructure with HPE container solutions on Synergy: <strong>Ka Wai Leung</strong></li>
+                                                <li><strong>DCN: </strong>(DCN16) ‘It's all about the Workloads!’ How workloads affect Fabric design. <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>1:30 p.m.</td>
+                                        <td class="col-xs-1">1:30 p.m.</td>
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Ninja Protected and proper sizing for a StoreOnce environment</li>
-                                                <li><strong>SIMPLIVITY: </strong>Automating a SimpliVity Federation with RESTful APIs and PowerShell: <strong>Ron Singler</strong></li>
-                                                <li><strong>SYNERGY: </strong>Modernize traditional applications using Docker containers on HPE Synergy, the first composable infrastructure: <strong>Gary Stevens - Ka Wai Leung</strong></li>
-                                                <li><strong>DCN: </strong>It's all about the Workloads!’ How workloads affect Fabric design.</li>
+                                                <li><strong>SIMPLIVITY: </strong>SimpliVity Backup and Disaster Recovery Best Practices - <strong>Mauricio Walder</strong></li>
+                                                <li><strong>SYNERGY: </strong>Composable SAP HANA TDI on Synergy Infrastructure - <strong>Gualberto Huerta</strong></li>
+                                                <li><strong>DCN: </strong>(DCN16) ‘It's all about the Workloads!’ How workloads affect Fabric design. <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>2:30 p.m.</td>
+                                        <td class="col-xs-1">2:30 p.m.</td>
                                         <td><strong>Break</strong></td>
                                     </tr>
                                     <tr>
-                                        <td>2:45 p.m.</td>
+                                        <td class="col-xs-1">2:45 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Entry Storage Portfolio and positioning</li>
-                                                <li><strong>SIMPLIVITY: </strong>Positioning HPE SimpliVity 380: <strong>Ron Singler</strong></li>
-                                                <li><strong>SYNERGY: </strong>Enable infrastructure automation using Red Hat OpenShift, Ansible Automation with HPE Synergy and Composable Infrastructure: <strong>Gary Stevens - Ka Wai Leung</strong></li>
-                                                <li><strong>DCN: </strong>Holy Cow! My customer is talking about Docker and I can't tell a docker container from a docker image!</li>
+                                                <li><strong>STORAGE: </strong>StoreOnce Next- <strong>Kevin McNally</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE Simplivity Use Cases Complete - <strong>Jason Shiplett</strong></li>
+                                                <li><strong>SYNERGY: </strong>When to Sell Synergy and when to sell Simplivity - <strong>Leonardo Soto</strong></li>
+                                                <li><strong>DCN: </strong>(DCN12) Holy Cow! My customer is talking about Docker and I can't tell a docker container from a docker image! - <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>3:45 p.m.</td>
+                                        <td class="col-xs-1">3:45 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>MSA HandsOn Lab</li>
-                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
-                                                <li><strong>SYNERGY: </strong>Transform Hybrid IT with VMware Cloud Foundation and HPE Synergy - <strong>TBC (Juan Manuel)</strong></li>
+                                                <li><strong>STORAGE: </strong>RMC HOL- <strong>Janice & Luan</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare - <strong>Richard Greenwalt</strong></li>
+                                                <li><strong>SYNERGY: </strong>Enterprise Technology Futures - <strong>Brad Mayes</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>5:30 p.m.</td>
+                                        <td class="col-xs-1">5:30 p.m.</td>
                                         <td>
                                             <ul class="js-dont-bulled">
                                                 <li>Adjourn</li>
