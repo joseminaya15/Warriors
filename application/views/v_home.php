@@ -408,7 +408,7 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="hospedaje">
                         <div class="js-information p-20">
-                            <ul class="p-l-15">
+                            <!-- <ul class="p-l-15">
                                 <li>Se ha negociado una tarifa especial con el SpringHill Suites Houston Northwest USD 128 por noche + impuestos.</li>
                                 <li>Para aplicar a esta tarifa deberán usar el siguiente link <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-book" href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=HPE%20Warriors%202.0%5EHOUZN%60hwvhwva%60128.00%60USD%60false%601%608/5/18%608/11/18%607/29/18&app=resvlink&stop_mobi=yes" target="_blank">Book your room</a></li>
                                 <li>Incluye el transporte diario al HPE Campus y Shuttle a Willowbrook Mall / Vintage Park</li>
@@ -427,7 +427,31 @@
                                     <p>TX 77070, USA</p>
                                     <a href="tel:+18329532220">Tel. +1 832 953 2220</a>
                                 </div>
+                            </div> -->
+                            <p>Debido a la proximidad del evento, el hotel recomendado para los participantes ya completó las reservas disponibles.  Les recomendamos una de estas alternativas muy cercanas al campus, para su alojamiento:</p>
+                            <div class="js-flex--start">
+                                <div class="js-information__left">
+                                    <div class="js-information__left--imagen hotel1"></div>
+                                </div>
+                                <div class="js-information__right">
+                                    <h2><a href="https://houstonvintagepark.place.hyatt.com/en/hotel/home.html" target="_blank">Hyatt Place Houston NW Vintage Park</a></h2>
+                                    <p>20330 Tomball Parkway</p>
+                                    <p>Houston, Texas, USA, 77070</p>
+                                    <a href="tel:+18329308090">Tel. +1 832 930 8090</a>
+                                </div>
                             </div>
+                            <div class="js-flex--start">
+                                <div class="js-information__left">
+                                    <div class="js-information__left--imagen hotel2"></div>
+                                </div>
+                                <div class="js-information__right">
+                                    <h2><a href="https://www.marriott.com/hotels/travel/hounw-courtyard-houston-northwest/" target="_blank">Courtyard Houston Northwest</a></h2>
+                                    <p>11050 Louetta Road,</p>
+                                    <p>Houston, Texas 77070 USA   </p>
+                                    <a href="tel:+12813746464">Tel. +1 281 374 6464</a>
+                                </div>
+                            </div>
+                            <p>En caso realice reserva en esta u otra alternative, les pedimos nos lo informe a través del site del evento (acceso registrados) para ser considerado en el transporte</p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="evento">

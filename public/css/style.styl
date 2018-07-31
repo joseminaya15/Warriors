@@ -383,9 +383,12 @@ footer
 	max-width 225px
 	.js-information__left--imagen
 		absolute()
-		background url(../img/fondo/hotel.jpg) no-repeat center center
-		background-size cover
+		background-size cover !important
 		height 160px
+		&.hotel1
+			background url(../img/fondo/hotel1.jpg) no-repeat center center
+		&.hotel2
+			background url(../img/fondo/hotel2.jpg) no-repeat center center
 .js-information__right
 	padding 10px 20px
 	width 100%
