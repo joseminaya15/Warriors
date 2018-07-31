@@ -676,6 +676,10 @@
     <script type="text/javascript">
         initButtonCalendarDaysMinToday('llegada');
         initButtonCalendarDaysMinToday('retorno');
+        var URLactual = window.location;
+        // if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/value_warriors/'){
+        //     location.href = 'http://www.marketinghpe.com/microsite/value_warriors/';
+        // }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {
