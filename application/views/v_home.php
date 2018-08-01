@@ -70,7 +70,7 @@
             <h2 class="js-title">PARTNERS</h2>
             <div class="js-partners">
                 <img src="<?php echo RUTA_IMG?>partners/intel.png">
-                <img src="<?php echo RUTA_IMG?>partners/veeam.png">
+                <img style="width: initial;" src="<?php echo RUTA_IMG?>partners/scality.png">
                 <img src="<?php echo RUTA_IMG?>partners/amd.png">
                 <img src="<?php echo RUTA_IMG?>partners/redhat.png">
                 <img src="<?php echo RUTA_IMG?>partners/vmware.png">
@@ -517,6 +517,12 @@
     <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="js-title white">
+                <h2>GRACIAS POR SU INTERES EN PARTICIPAR</h2>
+                <h3>LAS INSCRIPCIONES EN EL EVENTO YA SE ENCUENTRAN CERRADAS</h3>
+                <p>Esperamos contar con su presencia en una pr&oacute;xima convocatoria</p>
+                <small>HPE Latinoamerica</small>
+            </div>
+            <!-- <div class="js-title white">
                 <h2>REGISTRESE AHORA</h2>
             </div>
             <div class="row">
@@ -534,8 +540,8 @@
                         <div class="js-input js-select">
                             <select name="gender" id="breakout" title="Breakout Sessions*"> 
                                 <option value="Datacenter Networking">Datacenter Networking</option>
-                                <!-- <option value="Synergy & Blades">Synergy & Blades</option> -->
-                                <!-- <option value="HyperConverged">HyperConverged</option> -->
+                                <option value="Synergy & Blades">Synergy & Blades</option>
+                                <option value="HyperConverged">HyperConverged</option>
                                 <option value="Nimble & 3PAR Storage">Nimble & 3PAR Storage</option>
                             </select>
                         </div>
@@ -602,7 +608,7 @@
             <div id="confirmation" class="js-confirmation">
                 <h2>Gracias por registrarse</h2>
                 <p>Ahora para completar su registro y asegurar su cupo deber&aacute; ingresar su correo en la siguiente secci&oacute;n e indicarnos su fecha de llegada / salida as&iacute; como su reserva de hotel. (indispensable)</p>
-            </div>
+            </div> -->
         </div>
     </section>
     <section id="login" class="js-section">
