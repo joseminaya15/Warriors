@@ -160,7 +160,7 @@
                                                 <li><strong>STORAGE: </strong>3PAR competitive session: <strong>Jorge Maestre</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>Competitive and Differentiation and Best Practices <strong>Bernardo Miretzky</strong></li>
                                                 <li><strong>SYNERGY: </strong>Understanding Your Competitive Advantages <strong>Chris Powell</strong></li>
-                                                <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages) - <strong>Juan M Romero</strong></li>
+                                                <li><strong>DCN: </strong>Strategy & Positioning, Cases of Sucess with DCN Projects (Challenges, Solution Design, Positioning, Benefits & Advantages) - <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -169,7 +169,7 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>3PAR and infosight HandOnLab: <strong>Cris Smit</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare</li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare - <strong>Richard Greenwalt</strong></li>
                                                 <li><strong>SYNERGY: </strong>HPE Synergy and Composable Hands-On-Training (OneView using Synergy DCS) <strong>Andrew Leber/Chris Powell</strong></li>
                                                 <li><strong>DCN: </strong>HPE DCN with VMware NSX - <strong>Juan Manuel Romero</strong></li>
                                             </ul>
@@ -207,7 +207,7 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">9:30 a.m.</td>
-                                        <td>Veeam - <strong>Juan Altemar</strong></td>
+                                        <td>Scality - <strong>Juan Altemar</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:00 a.m.</td>
@@ -215,7 +215,7 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:15 a.m.</td>
-                                        <td>Microsoft - <strong>Yuri Luna</strong></td>
+                                        <td>Microsoft - <strong>Leonardo Berdiales</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:45 a.m.</td>
@@ -230,8 +230,8 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Nimble Storage Platform/Architecture Overview: <strong>Marcos Barros</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto/Mauricio Walder</strong></li>
-                                                <li><strong>SYNERGY: </strong>Virtual Connect Technologies - <strong>Andrew Leber</strong>. Vmware including VSAN and OneView for vCenter - <strong>Andrew Leber</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto / Mauricio Walder</strong></li>
+                                                <li><strong>SYNERGY: </strong>Virtual Connect Technologies & Vmware including VSAN and OneView for vCenter - <strong>Andrew Leber</strong></li>
                                                 <li><strong>DCN: </strong>Competitive & Technical (comparing to Cisco, Dell), Attach Examples - <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
                                         </td>
@@ -241,7 +241,7 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Sizing Nimble Storage Solutions with NinjaSTARS Sizer tool - Hands on Lab <strong>Marcos Barros</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto/Mauricio Walder</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>Sizing Guidelines - Online Sizer, TCO Tool, and Lanamark Tool Data Collecition & Sizing for HPE SimpliVity 380: <strong>Leonardo Soto / Mauricio Walder</strong></li>
                                                 <li><strong>SYNERGY: </strong>Converged System CS750 Based on Synergy Composable infrastructure - <strong>Andres Campuzano</strong></li>
                                                 <li><strong>DCN: </strong>Competitive & Technical: Design & Sizing & Configuration and Tools & Resources. <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
@@ -256,7 +256,7 @@
                                         <td>
                                             <ul>
                                                 <li><strong>STORAGE: </strong>Nimble Competitive position - <strong>John Duffy</strong></li>
-                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity Solutions - Reference Architectures, Technical Whitepapers and others - <strong>Bernardo Miretzky/Leonardo Soto</strong></li>
+                                                <li><strong>SIMPLIVITY: </strong>HPE SimpliVity Solutions - Reference Architectures, Technical Whitepapers and others - <strong>Bernardo Miretzky / Leonardo Soto</strong></li>
                                                 <li><strong>SYNERGY: </strong>Transform Hybrid IT with VMware Cloud Foundation and HPE Synergy: <strong>Juan Manuel Romero (Vmware LATAM)</strong></li>
                                                 <li><strong>DCN: </strong>(DCN02) Understanding Network Architectures for HPE's Hybrid-IT solutions - <strong>Felipe Lopez / Jairo Deaza</strong></li>
                                             </ul>
@@ -301,19 +301,15 @@
                                 <tbody>
                                     <tr>
                                         <td class="col-xs-1">8:00 a.m.</td>
-                                        <td>Storage Keynote <strong> Luis P. Acala/Jorge Maestre</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="col-xs-1">8:30 a.m.</td>
-                                        <td>Scality - <strong>Juan Altemar</strong></td>
+                                        <td>Storage Keynote <strong> Luis P. Acala / Jorge Maestre</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">9:00 a.m.</td>
-                                        <td>Suse - <strong>Gualberto Huerta</strong></td>
+                                        <td>HPE Mission Critical Servers - <strong>Gualberto Huerta</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">9:30 a.m.</td>
-                                        <td>AMD - <strong>Guadarrama, Eduardo/Gonzalez, Ralph</strong></td>
+                                        <td>AMD - <strong>Guadarrama, Eduardo / Gonzalez, Ralph</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:00 a.m.</td>
@@ -321,7 +317,7 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:15 a.m.</td>
-                                        <td>RedHat - <strong>Mariano Fernandez</strong></td>
+                                        <td>RedHat - <strong>Alan Sanchez TBC</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:45 a.m.</td>
@@ -346,7 +342,7 @@
                                         <td class="col-xs-1">1:30 p.m.</td>
                                         <td>
                                             <ul>
-                                                <li><strong>STORAGE: </strong>Ninja Protected and proper sizing for a StoreOnce environment</li>
+                                                <li><strong>STORAGE: </strong>Ninja Protected and proper sizing for a StoreOnce environment - <strong>Smit, Fred / Eason, Mitch </strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>SimpliVity Backup and Disaster Recovery Best Practices - <strong>Mauricio Walder</strong></li>
                                                 <li><strong>SYNERGY: </strong>Composable SAP HANA TDI on Synergy Infrastructure - <strong>Gualberto Huerta</strong></li>
                                                 <li><strong>DCN: </strong>(DCN16) ‘It's all about the Workloads!’ How workloads affect Fabric design. <strong>Felipe Lopez / Jairo Deaza</strong></li>
