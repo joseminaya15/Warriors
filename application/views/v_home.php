@@ -170,7 +170,7 @@
                                             <ul>
                                                 <li><strong>STORAGE: </strong>3PAR and infosight HandOnLab: <strong>Cris Smit</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare - <strong>Richard Greenwalt</strong></li>
-                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Hands-On-Training (OneView using Synergy DCS) <strong>Andrew Leber/Chris Powell</strong></li>
+                                                <li><strong>SYNERGY: </strong>HPE Synergy and Composable Hands-On-Training (OneView using Synergy DCS) <strong>Andrew Leber / Chris Powell</strong></li>
                                                 <li><strong>DCN: </strong>HPE DCN with VMware NSX - <strong>Juan Manuel Romero</strong></li>
                                             </ul>
                                         </td>
@@ -305,7 +305,7 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">9:00 a.m.</td>
-                                        <td>HPE Mission Critical Servers - <strong>Gualberto Huerta</strong></td>
+                                        <td>SuSe - <strong>Rodolfo Bejarano</strong></td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">9:30 a.m.</td>
@@ -702,7 +702,7 @@
     <script type="text/javascript">
         initButtonCalendarDaysMinToday('llegada');
         initButtonCalendarDaysMinToday('retorno');
-        var URLactual = window.location;
+        // var URLactual = window.location;
         // if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/value_warriors/'){
         //     location.href = 'http://www.marketinghpe.com/microsite/value_warriors/';
         // }
