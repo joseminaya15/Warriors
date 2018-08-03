@@ -109,7 +109,7 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">9:30 a.m.</td>
-                                        <td>Intel - TBC</td>
+                                        <td>Vmware -  Juan Manuel Romero</td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:00 a.m.</td>
@@ -117,7 +117,7 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:15 a.m.</td>
-                                        <td>Vmware - Juan Manuel Romero</td>
+                                        <td>Intel - Megan Gawlik</td>
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">10:45 a.m.</td>
@@ -269,6 +269,7 @@
                                                 <li><strong>STORAGE: </strong>Nimble Storage Hands on Lab <strong>Janice, Luan</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 2600 - <strong>Matt Haron</strong></li>
                                                 <li><strong>SYNERGY: </strong>Synergy Technology Roadmap and Futures - <strong>Richard Scruggs</strong></li>
+                                                <li><strong>DCN: </strong>Distributed Cloud Networking & SD1 (Nokia) - <strong>Felipe / Jairo</strong></li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -371,6 +372,7 @@
                                                 <li><strong>STORAGE: </strong>RMC HOL- <strong>Janice & Luan</strong></li>
                                                 <li><strong>SIMPLIVITY: </strong>HPE SimpliVity 380 - Hands on Lab VMWare - <strong>Richard Greenwalt</strong></li>
                                                 <li><strong>SYNERGY: </strong>Enterprise Technology Futures - <strong>Brad Mayes</strong></li>
+                                                <li><strong>DCN: </strong>Cases of Sucess with DCN Projects, Q&Q, Feedback</li>
                                             </ul>
                                         </td>
                                     </tr>
