@@ -177,10 +177,22 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">5:30 p.m.</td>
+                                        <td>Traslado al Hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">6:15 p.m.</td>
+                                        <td>Encuentro en el lobby del hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">6:30 p.m.</td>
+                                        <td>Traslado a la actividad programada</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">7:00 p.m.</td>
                                         <td>
                                             <ul class="js-dont-bulled">
                                                 <li>Team Bulding Activity & Welcome Reception</li>
-                                                <li><a href="https://topgolf.com/us/houston-north/" target="_blank">Top Golf Spring</a></li>
+                                                <li>Top Golf Spring</li>
                                                 <li>560 Spring Park Center Blvd</li>
                                                 <li>Spring, TX</li>
                                                 <li>77373</li>
@@ -275,16 +287,19 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">5:30 p.m.</td>
-                                        <td>
-                                            <ul class="js-dont-bulled">
-                                                <li>Dinner at The Woodlands</li>
-                                                <li><a href="https://www.brioitalian.com/index.html" target="_blank">Brios Tuscane Grille</a></li>
-                                                <li>1201 Lake Woodlands Drive</li>
-                                                <li>The Woodlands, TX 77380</li>
-                                                <li>Spring, TX</li>
-                                                <li>77373</li>
-                                            </ul>
-                                        </td>
+                                        <td>Traslado al Hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">6:15 p.m.</td>
+                                        <td>Encuentro en el lobby del hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">6:30 p.m.</td>
+                                        <td>Traslado a la actividad programada</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">7:00 p.m.</td>
+                                        <td>Cena en Brios Restaurant @Woodlands</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -378,12 +393,19 @@
                                     </tr>
                                     <tr>
                                         <td class="col-xs-1">5:30 p.m.</td>
-                                        <td>
-                                            <ul class="js-dont-bulled">
-                                                <li>Adjourn</li>
-                                                <li><a href="http://www.premiumoutlets.com/outlet/houston" target="_blank">Free Time & Shopping</a></li>
-                                            </ul>
-                                        </td>
+                                        <td>Traslado al Hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">6:15 p.m.</td>
+                                        <td>Encuentro en el lobby del hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">6:30 p.m.</td>
+                                        <td>Traslado a la actividad programada</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-1">7:00 p.m.</td>
+                                        <td>Shopping Tour @ Premium outlet</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -704,10 +726,10 @@
     <script type="text/javascript">
         initButtonCalendarDaysMinToday('llegada');
         initButtonCalendarDaysMinToday('retorno');
-        // var URLactual = window.location;
-        // if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/value_warriors/'){
-        //     location.href = 'http://www.marketinghpe.com/microsite/value_warriors/';
-        // }
+        var URLactual = window.location;
+        if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/value_warriors/'){
+            location.href = 'http://www.marketinghpe.com/microsite/value_warriors/';
+        }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {
