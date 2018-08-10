@@ -710,6 +710,34 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="ModalSpeaker" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="mdl-card">
+                    <div class="mdl-card__title">
+                        <h2>Gracias por su participaci&oacute;n</h2>
+                        <p>Completar la siguiente informaci&oacute;n</p>
+                    </div>
+                    <div class="mdl-card__supporting-text p-t-0">
+                        <div class="col-xs-12 p-0">
+                            <div class=" js-input">
+                                <label for="text">Ingrese su correo</label>
+                                <input type="text" id="reserva" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-card__actions text-right">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="goToPresentacion()">Ingresar</button>
+                    </div>
+                    <div class="mdl-card__menu">
+                        <button class="mdl-button mdl-js-button mdl-button--icon" data-dismiss="modal">
+                            <i class="mdi mdi-close"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>
@@ -726,10 +754,10 @@
     <script type="text/javascript">
         initButtonCalendarDaysMinToday('llegada');
         initButtonCalendarDaysMinToday('retorno');
-        var URLactual = window.location;
-        if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/value_warriors/'){
-            location.href = 'http://www.marketinghpe.com/microsite/value_warriors/';
-        }
+        // var URLactual = window.location;
+        // if(URLactual['href'] != 'http://www.marketinghpe.com/microsite/value_warriors/'){
+        //     location.href = 'http://www.marketinghpe.com/microsite/value_warriors/';
+        // }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

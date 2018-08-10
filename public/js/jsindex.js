@@ -1,3 +1,6 @@
+$(window).load(function() {
+    $("#ModalSpeaker").modal('show');
+});
 var $win = $(window);
 $win.scroll(function () {
 	if ($win.scrollTop() > 45) {
