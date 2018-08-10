@@ -128,7 +128,7 @@ function ingresar(indica){
         			$('#correo').val("");
 	        		$('#ModalLogin').modal('show');
         		} else if (indica == 2){
-        			//redirecciona
+        			window.open('Presentacion','_blank');
         		}
         	}else {
 				msj('error', 'Email no registrado');
