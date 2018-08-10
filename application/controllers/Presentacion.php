@@ -13,6 +13,10 @@ class Presentacion extends CI_Controller {
     }
 
 	public function index() {
-		$this->load->view('v_presentacion');
+        if ($this->session->userdata('email') == null){
+            header("location: Home");
+        } else {
+            $this->load->view('v_presentacion');
+        }
 	}
 }
