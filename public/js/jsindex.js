@@ -129,6 +129,8 @@ function ingresar(indica){
 	        		$('#ModalLogin').modal('show');
         		} else if (indica == 2){
         			window.open('Presentacion','_blank');
+        			$('#correReserva').val("");
+        			$('#ModalSpeaker').modal('hide');
         		}
         	}else {
 				msj('error', 'Email no registrado');
