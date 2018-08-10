@@ -722,7 +722,7 @@
                         <div class="col-xs-12 p-0">
                             <div class=" js-input">
                                 <label for="text">Ingrese su correo</label>
-                                <input type="text" id="reserva" >
+                                <input type="text" id="correReserva" >
                             </div>
                         </div>
                     </div>

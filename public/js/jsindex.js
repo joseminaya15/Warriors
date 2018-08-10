@@ -107,7 +107,7 @@ function sendInformation(){
 	});
 }
 function ingresar(indica){
-	var correo = $('#correo').val();
+	var correo = (indica == 1) ? $('#correo').val() : $('#correReserva').val(); 
 	if(correo == null || correo == '') {
 		msj('error', 'Email debe completarse');
 		return;
