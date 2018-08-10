@@ -20,48 +20,230 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>metric.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
+        <link rel="stylesheet"    href="<?php echo RUTA_CSS?>admin.css?v=<?php echo time();?>">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="js-container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand link" href="#home">
-                    <img src="<?php echo RUTA_IMG?>logo/hpe-intel.png">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item active"><a class="link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="link" href="#partners">Partners</a></li>
-                    <li class="nav-item"><a class="link" href="#agenda">Agenda</a></li>
-                    <li class="nav-item"><a class="link" href="#logistic">Logistica</a></li>
-                    <li class="nav-item"><a class="link" href="#register">Registro</a></li>
-                    <li class="nav-item"><a class="link" href="#login">Acceso Registrados</a></li>
-                </ul>
-            </div>
+    <div class="js-header js-fixed">
+        <div class="js-header--left">
+            <img src="<?php echo RUTA_IMG?>logo/hpe-intel.png">
         </div>
-    </nav>
-    <section id="home">
-        <div class="js-fondo"></div>
-        <div class="js-container">
-            <div class="js-home js-height js-flex">
-                <div class="js-contenido">
-                    <h2>HPE LAC Hybrid IT Value & Growth Channels Warriors</h2>
-                    <p>Del 7 al 9 de Agosto 2018</p>
-                    <p>Houston, Tx</p>
-                    <div class="js-contenido__buttons">
-                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">REGISTRESE AQUÍ</a>
-                        <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">AGENDA</a>
-                    </div>
-                </div>
+        <div class="js-header--right">
+            <p>HPE LAC Value & Growth Channels Warriors</p>
+        </div>
+    </div>
+    <section id="presentacion" class="js-section">
+        <div class="js-container m-t-50">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Tema</th>
+                            <th>Expositor</th>
+                            <th>Descarga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AMD_EPYC_Jul_2018_HPE.pdf</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Compute_Gen10 Customer presentation_LB.pptx</td>
+                            <td>Leonardo Berdiales</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Converged System CS750.pptx</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DCN_HIT_Warriors_Resumen.pdf</td>
+                            <td>Felipe L&oacute;pez Moreno</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE Hybrid IT Strategy.pptx</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE LAC HIT Channel Enablement Roadmap v1 - WARRIORS.pptx</td>
+                            <td>Antonio Mariano</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE Storage Strategy.pptx</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE Warriors 2018 - Vmware Main Session - Final.pptx</td>
+                            <td>Diego Delgado - David Chaparro</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE_Greenlake Warriors Presentation.pptx</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE_Mission_Critical_Systems_Canal.pdf</td>
+                            <td>Gualberto Huerta</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE_Simplivity_Roadmap_Warriors.pptx</td>
+                            <td>Leonardo Soto</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE_Storage_LAM-Keynote-Final.pptx</td>
+                            <td>Jorge Maestre</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HPE_Warriors preso_080818.pptx</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Microsoft_WS2008 EOS HPE Jul 18.pptx</td>
+                            <td>Leonardo Berdiales</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Simplivity_Warriors_Solutions.pptx</td>
+                            <td>Leonardo Soto</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Storage Competitive presentation.pptx</td>
+                            <td></td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Storage_3PAR_Life of an IO.pptx</td>
+                            <td>Joseph Algieri</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Storage_DPR_Optimized Data Protection for Hybrid IT.pptx</td>
+                            <td>Luis Pablo Alcal&aacute;</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Storage_Entry_Storage.pptx</td>
+                            <td>Luis Pablo Alcal&aacute;</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Storagera_Aspire_2018_3PAR_Performance.pptx</td>
+                            <td>John  Dillo</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SUSA-HPE_Warriors_August2018.pdf</td>
+                            <td>Rodolfo Bejarano</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Synergy_Positioning_HPE_Synergy_for_SAP_HANA_solution…annel_July2018.pdf</td>
+                            <td>Gualberto Huerta</td>
+                            <td>
+                                <button class="mdl-button mdl-js-button mdl-button--icon">
+                                    <i class="mdi mdi-file_download"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
