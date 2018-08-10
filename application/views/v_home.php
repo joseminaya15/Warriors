@@ -640,7 +640,7 @@
                 <input type="text" id="correo" onkeyup="verificarDatos(event);">
             </div>
             <div class="js-reserva text-center">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="ingresar()">Completar Registro</button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="ingresar(1)">Completar Registro</button>
             </div>
             <div id="registered" class="js-confirmation">
                 <h2>Registro completado. ¡Nos vemos en Houston!</h2>
@@ -727,7 +727,7 @@
                         </div>
                     </div>
                     <div class="mdl-card__actions text-right">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="goToPresentacion()">Ingresar</button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button" onclick="ingresar(2)">Ingresar</button>
                     </div>
                     <div class="mdl-card__menu">
                         <button class="mdl-button mdl-js-button mdl-button--icon" data-dismiss="modal">

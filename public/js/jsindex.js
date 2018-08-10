@@ -106,7 +106,7 @@ function sendInformation(){
 		}
 	});
 }
-function ingresar(){
+function ingresar(indica){
 	var correo = $('#correo').val();
 	if(correo == null || correo == '') {
 		msj('error', 'Email debe completarse');
@@ -124,8 +124,12 @@ function ingresar(){
 		try{
         	data = JSON.parse(data);
         	if(data.error == 0){
-        		$('#correo').val("");
-        		$('#ModalLogin').modal('show');
+        		if (indica == 1) {
+        			$('#correo').val("");
+	        		$('#ModalLogin').modal('show');
+        		} else if (indica == 2){
+        			//redirecciona
+        		}
         	}else {
 				msj('error', 'Email no registrado');
         		return;
