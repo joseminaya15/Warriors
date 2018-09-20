@@ -486,12 +486,21 @@ footer
 				transform translate(1)
 				transform transform(-50% , -50%)
 				opacity 1
+#ModalSpeaker
+	.mdl-card__title
+		h2
+			font-size 24px
+			font-family $medium
+		p
+			font-size 18px
+			line-height 20px
 /*TABLE*/
 table
 	&>tbody
 		&>tr
 			&>td
 				font-size 16px
+				vertical-align middle !important
 .table-responsive
 	border none
 	ul
@@ -506,6 +515,13 @@ table
 	list-style none
 	li
 		line-height 18px
+.js-download
+	flexCenter()
+	justify-content flex-end
+	p
+		margin-right 5px
+	a
+		text-decoration none !important
 /*TOASTR*/
 /*SCROLL*/
 ::-webkit-scrollbar
